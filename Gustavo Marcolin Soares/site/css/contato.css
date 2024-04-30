@@ -1,0 +1,145 @@
+* { /*Resetar CSS*/
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 16px;
+    padding-top: 100px;
+    background-color: black;
+}
+.header {
+    background: #747474;
+    width: 100%; /*Largura*/
+    position: fixed; /*Fixar cabeçalho ao topo*/
+    top: 0; /*Fixar cabeçalho ao topo*/
+    padding: 10px;
+}
+
+.header .navPrincipal {
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding: 10px;
+}
+.header .navPrincipal ul li {
+    list-style: none; /*Retirar Bolinho da lista*/
+    display: inline-block; /*Deixar os iten um ao lado do outro*/
+    margin: 15px; /*Margem entre os itens*/
+}
+.header .navPrincipal ul li a {
+    text-decoration: none; /*Retirar Sublinhado*/
+    color: rgb(39, 39, 39);
+}
+.header .navPrincipal ul li a:hover {
+    color: #F0F8FF;
+    transition: all 0.5s;
+}
+main {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #FFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.titulos {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #FFF;
+    font-size: 40px;
+}
+label {
+    font-weight: bold; /*Deixar todo o texto negrito*/
+}
+.formulario {
+    width: 40%;
+    box-sizing: border-box; /*Retirar barra de rolagem ao final da página*/
+}
+input {
+    padding: 10px;
+}
+label, .formulario {
+    margin: 10px 0;
+}
+.btn_enviar, .btn_resetar {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #FFF;
+}
+.btn_enviar {
+    padding-top: 10px;
+}
+.btn_enviar {
+    background-color: green;
+}
+.btn_enviar:hover {
+    background-color: #CCC;
+    color: green;
+    transition: all 0.5s;
+}
+
+.btn_resetar {
+    background-color: #F00;
+}
+.btn_resetar:hover {
+    background-color: #CCC;
+    color: #F00;
+    transition: all 0.5s;
+}
+.formulario:focus {
+    background-color: rgb(250, 250, 101);
+}
+.meiosContatos ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+.pingar{
+    animation-name: pingar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.dropdowm-menu {
+    position: absolute;
+    padding-top: 15px;
+    display: none;
+}
+.dropdowm-menu a {
+    display: block;
+}
+.dropdowm:hover .dropdowm-menu {
+    display: block;
+    transition: all 0.5s;
+}
+@keyframes pingar {
+    0% {margin-right: 0px;}
+    50% {margin-left: -10px;}
+}
+main nav ul li a {
+    color: rgb(39, 39, 39);
+}
+main nav ul li a:hover {
+    color: #FFF;
+    transition: all 0.5s;
+}
+footer {
+    text-align: center;
+    background: #747474;
+    width: 100%;
+}
+footer p a{
+    text-decoration: none;
+}
+footer p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer nav ul li a{
+    color: rgb(39, 39, 39);
+}
+footer nav ul li a:hover {
+    color: white;
+    transition: all 0.5s;
+}

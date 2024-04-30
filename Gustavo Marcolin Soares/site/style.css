@@ -1,0 +1,122 @@
+* { /*Resetar CSS*/
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 16px;
+    padding-top: 100px;
+    background-color: black;
+}
+.logo_gustavo{
+    width: 10%;
+    display: block;
+    display: inline-flex;
+}
+.header {
+    background: #747474;
+    width: 100%; /*Largura*/
+    position: fixed; /*Fixar cabeçalho ao topo*/
+    top: 0; /*Fixar cabeçalho ao topo*/
+}
+.header .navPrincipal {
+    float: right;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding-top: 50px;
+}
+.header .navPrincipal ul li {
+    list-style: none; /*Retirar Bolinho da lista*/
+    display: inline-block; /*Deixar os iten um ao lado do outro*/
+    margin: 35px; /*Margem entre os itens*/
+}
+header {
+    height: 150px;
+}
+.header .navPrincipal ul li a {
+    text-decoration: none; /*Retirar Sublinhado*/
+    color: rgb(39, 39, 39);
+}
+.header .navPrincipal ul li a:hover {
+    color: #F0F8FF;
+    transition: all 0.5s;
+}
+.meiosContatos ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+.bannerPrincipal {
+    width: 100%;
+}
+main {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+main p {
+    color: #CCC;
+}
+.tituloPrincipal {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.subtitulos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: yellow;
+}
+main p {
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer {
+    text-align: center;
+    background: #747474;
+    width: 100%;
+}
+footer p a{
+    text-decoration: none;
+}
+footer p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer nav ul li a{
+    color: rgb(39, 39, 39);
+}
+footer nav ul li a:hover {
+    color: white;
+    transition: all 0.5s;
+}
+.dropdowm-menu {
+    position: absolute;
+    padding-top: 15px;
+    display: none;
+}
+.dropdowm-menu a {
+    display: block;
+}
+.dropdowm:hover .dropdowm-menu {
+    display: block;
+    transition: all 0.5s;
+}
+@media (max-width:480px){
+    .logo_gustavo {
+        display: none;
+    }
+    .header .navPrincipal {
+        padding-top: 10px;
+        text-align: center;
+    }
+    header {
+        height: 200px;
+    }
+    main {
+        padding-top: 200px;
+    }
+}

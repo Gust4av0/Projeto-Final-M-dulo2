@@ -1,0 +1,100 @@
+* { /*Resetar CSS*/
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 16px;
+    padding-top: 100px;
+    background-color: black;
+}
+.header {
+    background: #747474;
+    width: 100%; /*Largura*/
+    position: fixed; /*Fixar cabeçalho ao topo*/
+    top: 0; /*Fixar cabeçalho ao topo*/
+    padding: 10px;
+}
+.header .navPrincipal {
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 20px;
+    padding: 20px;
+}
+.header .navPrincipal ul li {
+    list-style: none; /*Retirar Bolinho da lista*/
+    display: inline-block; /*Deixar os iten um ao lado do outro*/
+    margin: 15px; /*Margem entre os itens*/
+}
+.header .navPrincipal ul li a {
+    text-decoration: none; /*Retirar Sublinhado*/
+    color: rgb(39, 39, 39);
+}
+.header .navPrincipal ul li a:hover {
+    color: #F0F8FF;
+    transition: all 0.5s;
+}
+.meiosContatos ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+main {
+    text-align: center;
+    color: #CCC;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+.foto_construct3 {
+    width: 15%;
+}
+.foto_gustavo {
+    width: 15%;
+}
+.img {
+    transition: all 1s;
+}
+.img:hover {
+    transform: rotate(360deg);
+}
+.conteudo_sobre {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 30px;
+}
+.sobre {
+    padding-bottom: 50px;
+    color: #FFF;
+}
+.dropdowm-menu {
+    position: absolute;
+    padding-top: 15px;
+    display: none;
+}
+.dropdowm-menu a {
+    display: block;
+}
+.dropdowm:hover .dropdowm-menu {
+    display: block;
+    transition: all 0.5s;
+}
+footer {
+    text-align: center;
+    background: #747474;
+    width: 100%;
+}
+footer p a{
+    text-decoration: none;
+}
+footer p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer nav ul li a{
+    color: rgb(39, 39, 39);
+}
+footer nav ul li a:hover {
+    color: white;
+    transition: all 0.5s;
+}

@@ -1,3 +1,46 @@
+* {
+  margin: 0;
+  padding: 0; }
 
+.header-nav {
+  text-align: center;
+  text-transform: uppercase;
+  font: 20px Montserrat, Tahoma;
+  background-color: #171D25;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .header-nav ul li {
+    display: inline-block;
+    padding: 20px; }
+  .header-nav a {
+    text-decoration: none;
+    color: #DCDEDF; }
+  .header-nav a:hover {
+    color: gray; }
+  .header-nav .dropdonw-menu {
+    position: absolute;
+    display: none;
+    padding-top: 2px; }
+  .header-nav .dropdonw-menu a {
+    display: block;
+    text-transform: none;
+    padding: 12px;
+    background-color: #CCC;
+    color: #171D25; }
+  .header-nav .dropdonw:hover .dropdonw-menu {
+    display: block; }
+    .header-nav .dropdonw:hover .dropdonw-menu a:hover {
+      background-color: #171D25;
+      color: #DCDEDF; }
+
+.footer {
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  background-color: #171D25;
+  width: 100%;
+  color: #DCDEDF;
+  padding: 20px;
+  font: 16px Montserrat, Tahoma; }
 
 /*# sourceMappingURL=style.css.map */

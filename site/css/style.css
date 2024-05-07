@@ -3,9 +3,8 @@
   padding: 0; }
 
 .header-nav {
-  text-align: center;
   text-transform: uppercase;
-  font: 20px Montserrat, Tahoma;
+  font: 17px Montserrat, Tahoma;
   background-color: #171D25;
   padding-top: 15px;
   padding-bottom: 15px; }
@@ -32,6 +31,12 @@
     .header-nav .dropdonw:hover .dropdonw-menu a:hover {
       background-color: #171D25;
       color: #DCDEDF; }
+  .header-nav .btn-donwload {
+    float: right;
+    background-color: #FFC107;
+    border-radius: 15px; }
+    .header-nav .btn-donwload a {
+      color: #171D25; }
 
 .footer {
   text-align: center;

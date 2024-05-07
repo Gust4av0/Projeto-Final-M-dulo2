@@ -11,9 +11,9 @@ $corFonte: #DCDEDF;
 }
 
 .header-nav {
-    text-align: center;
+
     text-transform: uppercase;
-    font: 20px $fonte1;
+    font: 17px $fonte1;
     background-color: $primaria;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -52,6 +52,16 @@ $corFonte: #DCDEDF;
         a:hover {
             background-color: $primaria;
             color: $corFonte;
+        }
+    }
+
+    .btn-donwload {
+        float: right;
+        background-color: #FFC107;
+        border-radius: 15px;
+        
+        a {
+            color: $primaria;
         }
     }
 }

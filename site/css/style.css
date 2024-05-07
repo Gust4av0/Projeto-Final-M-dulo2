@@ -47,5 +47,13 @@
   color: #DCDEDF;
   padding: 20px;
   font: 16px Montserrat, Tahoma; }
+  .footer p {
+    padding-bottom: 20px; }
+  .footer a {
+    text-decoration: none;
+    color: #CCC;
+    padding: 20px; }
+  .footer a:hover {
+    color: gray; }
 
 /*# sourceMappingURL=style.css.map */

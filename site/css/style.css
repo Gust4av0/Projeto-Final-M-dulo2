@@ -1,7 +1,41 @@
+@charset "UTF-8";
+/*CSS Reset*/
 * {
   margin: 0;
   padding: 0; }
 
+/*---------------------------------------------------------------------------------------------*/
+main h1 {
+  font: 24px Montserrat, Tahoma;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #CCC; }
+  a .btn {
+    background-color: #171D25;
+    padding: 10px;
+    border-radius: 60px; }
+
+.container {
+  width: 1000px;
+  margin: auto; }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  /*Ele quebrar e cair as colunas para baixo*/ }
+  .flex .flex-coluna {
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px #CCC;
+    text-align: center; }
+
+/*Estrutura padrão Navegação e rodapé*/
 .header-nav {
   text-transform: uppercase;
   font: 17px Montserrat, Tahoma;
@@ -40,10 +74,7 @@
 
 .footer {
   text-align: center;
-  bottom: 0;
-  position: fixed;
   background-color: #171D25;
-  width: 100%;
   color: #DCDEDF;
   padding: 20px;
   font: 16px Montserrat, Tahoma; }
@@ -55,5 +86,7 @@
     padding: 20px; }
   .footer a:hover {
     color: gray; }
+
+/*---------------------------------------------------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */

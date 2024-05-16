@@ -5,11 +5,54 @@ $primaria: #171D25;
 $secundaria: #CCC;
 $corFonte: #DCDEDF;
 
+/*CSS Reset*/
 * {
     margin: 0;
     padding: 0;
 }
 
+/*---------------------------------------------------------------------------------------------*/
+
+main {
+    h1 {
+        font: 24px $fonte1;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $secundaria;
+    .btn {
+        background-color: $primaria;
+        padding: 10px;
+        border-radius: 60px;
+    }
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    /*Ele quebrar e cair as colunas para baixo*/
+    .flex-coluna {
+        width: 25%;
+        margin: $margin;
+        padding: $margin;
+        box-shadow: 0 0 $margin $secundaria;
+        text-align: center;
+    }
+}
+
+/*Estrutura padrão Navegação e rodapé*/
 .header-nav {
 
     text-transform: uppercase;
@@ -59,7 +102,7 @@ $corFonte: #DCDEDF;
         float: right;
         background-color: #FFC107;
         border-radius: 15px;
-        
+
         a {
             color: $primaria;
         }
@@ -68,10 +111,7 @@ $corFonte: #DCDEDF;
 
 .footer {
     text-align: center;
-    bottom: 0;
-    position: fixed;
     background-color: $primaria;
-    width: 100%;
     color: $corFonte;
     padding: 20px;
     font: 16px $fonte1;
@@ -79,12 +119,16 @@ $corFonte: #DCDEDF;
     p {
         padding-bottom: 20px;
     }
+
     a {
         text-decoration: none;
         color: $secundaria;
         padding: $margin;
     }
+
     a:hover {
         color: gray;
     }
 }
+
+/*---------------------------------------------------------------------------------------------*/

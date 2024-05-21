@@ -12,7 +12,16 @@ $corFonte: #DCDEDF;
 }
 
 /*---------------------------------------------------------------------------------------------*/
-
+header {
+    background-color: $primaria;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    .header-logo{
+        width: 140px;
+        margin-left: 25px;
+    }
+}
 main {
     h1 {
         font: 24px $fonte1;
@@ -36,6 +45,9 @@ a {
 .container {
     width: 1000px;
     margin: auto;
+    h1 {
+        padding-top: 150px;
+    }
 }
 
 .flex {
@@ -54,12 +66,12 @@ a {
 
 /*Estrutura padrão Navegação e rodapé*/
 .header-nav {
-
     text-transform: uppercase;
     font: 17px $fonte1;
-    background-color: $primaria;
     padding-top: 15px;
     padding-bottom: 15px;
+    float: right;
+    padding-top: 30px;
 
     ul li {
         display: inline-block;
@@ -99,10 +111,8 @@ a {
     }
 
     .btn-donwload {
-        float: right;
         background-color: #FFC107;
         border-radius: 15px;
-
         a {
             color: $primaria;
         }

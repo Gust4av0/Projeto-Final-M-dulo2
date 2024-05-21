@@ -5,6 +5,15 @@
   padding: 0; }
 
 /*---------------------------------------------------------------------------------------------*/
+header {
+  background-color: #171D25;
+  position: fixed;
+  width: 100%;
+  height: 120px; }
+  header .header-logo {
+    width: 140px;
+    margin-left: 25px; }
+
 main h1 {
   font: 24px Montserrat, Tahoma;
   text-align: center;
@@ -23,6 +32,8 @@ a {
 .container {
   width: 1000px;
   margin: auto; }
+  .container h1 {
+    padding-top: 150px; }
 
 .flex {
   display: flex;
@@ -39,9 +50,10 @@ a {
 .header-nav {
   text-transform: uppercase;
   font: 17px Montserrat, Tahoma;
-  background-color: #171D25;
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  float: right;
+  padding-top: 30px; }
   .header-nav ul li {
     display: inline-block;
     padding: 20px; }
@@ -66,7 +78,6 @@ a {
       background-color: #171D25;
       color: #DCDEDF; }
   .header-nav .btn-donwload {
-    float: right;
     background-color: #FFC107;
     border-radius: 15px; }
     .header-nav .btn-donwload a {

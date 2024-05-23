@@ -14,7 +14,6 @@ $corFonte: #DCDEDF;
 /*---------------------------------------------------------------------------------------------*/
 header {
     background-color: $primaria;
-    position: fixed;
     width: 100%;
     height: 120px;
     .header-logo{
@@ -125,6 +124,8 @@ a {
     color: $corFonte;
     padding: 20px;
     font: 16px $fonte1;
+    bottom: 0;
+    position: fixed;
 
     p {
         padding-bottom: 20px;

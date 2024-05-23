@@ -1,0 +1,2 @@
+<h1>Contato da Equipe</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ex voluptatibus quo non corrupti laudantium hic commodi qui. Provident quibusdam praesentium, molestias veniam et cumque laborum. Quia accusamus asperiores corporis.</p>

@@ -2,58 +2,48 @@
 /*CSS Reset*/
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /*---------------------------------------------------------------------------------------------*/
 header {
   background-color: #171D25;
   width: 100%;
-  height: 120px;
-}
-header .header-logo {
-  width: 140px;
-  margin-left: 25px;
-}
+  height: 120px; }
+  header .header-logo {
+    width: 140px;
+    margin-left: 25px; }
 
 main h1 {
   font: 24px Montserrat, Tahoma;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #CCC;
-}
-a .btn {
-  background-color: #171D25;
-  padding: 10px;
-  border-radius: 60px;
-}
+  color: #CCC; }
+  a .btn {
+    background-color: #171D25;
+    padding: 10px;
+    border-radius: 60px; }
 
 .container {
   width: 1000px;
-  margin: auto;
-}
-.container h1 {
-  padding-top: 150px;
-}
+  margin: auto; }
+  .container h1 {
+    padding-top: 150px; }
 
 .flex {
   display: flex;
   flex-wrap: wrap;
-  /*Ele quebrar e cair as colunas para baixo*/
-}
-.flex .flex-coluna {
-  width: 25%;
-  margin: 20px;
-  padding: 20px;
-  box-shadow: 0 0 20px #CCC;
-  text-align: center;
-}
+  /*Ele quebrar e cair as colunas para baixo*/ }
+  .flex .flex-coluna {
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px #CCC;
+    text-align: center; }
 
 /*Estrutura padrão Navegação e rodapé*/
 .header-nav {
@@ -62,45 +52,35 @@ a .btn {
   padding-top: 15px;
   padding-bottom: 15px;
   float: right;
-  padding-top: 30px;
-}
-.header-nav ul li {
-  display: inline-block;
-  padding: 20px;
-}
-.header-nav a {
-  text-decoration: none;
-  color: #DCDEDF;
-}
-.header-nav a:hover {
-  color: gray;
-}
-.header-nav .dropdonw-menu {
-  position: absolute;
-  display: none;
-  padding-top: 2px;
-}
-.header-nav .dropdonw-menu a {
-  display: block;
-  text-transform: none;
-  padding: 12px;
-  background-color: #CCC;
-  color: #171D25;
-}
-.header-nav .dropdonw:hover .dropdonw-menu {
-  display: block;
-}
-.header-nav .dropdonw:hover .dropdonw-menu a:hover {
-  background-color: #171D25;
-  color: #DCDEDF;
-}
-.header-nav .btn-donwload {
-  background-color: #FFC107;
-  border-radius: 15px;
-}
-.header-nav .btn-donwload a {
-  color: #171D25;
-}
+  padding-top: 30px; }
+  .header-nav ul li {
+    display: inline-block;
+    padding: 20px; }
+  .header-nav a {
+    text-decoration: none;
+    color: #DCDEDF; }
+  .header-nav a:hover {
+    color: gray; }
+  .header-nav .dropdonw-menu {
+    position: absolute;
+    display: none;
+    padding-top: 2px; }
+  .header-nav .dropdonw-menu a {
+    display: block;
+    text-transform: none;
+    padding: 12px;
+    background-color: #CCC;
+    color: #171D25; }
+  .header-nav .dropdonw:hover .dropdonw-menu {
+    display: block; }
+    .header-nav .dropdonw:hover .dropdonw-menu a:hover {
+      background-color: #171D25;
+      color: #DCDEDF; }
+  .header-nav .btn-donwload {
+    background-color: #FFC107;
+    border-radius: 15px; }
+    .header-nav .btn-donwload a {
+      color: #171D25; }
 
 .footer {
   text-align: center;
@@ -109,19 +89,15 @@ a .btn {
   padding: 20px;
   font: 16px Montserrat, Tahoma;
   bottom: 0;
-  position: fixed;
-}
-.footer p {
-  padding-bottom: 20px;
-}
-.footer a {
-  text-decoration: none;
-  color: #CCC;
-  padding: 20px;
-}
-.footer a:hover {
-  color: gray;
-}
+  position: fixed; }
+  .footer p {
+    padding-bottom: 20px; }
+  .footer a {
+    text-decoration: none;
+    color: #CCC;
+    padding: 20px; }
+  .footer a:hover {
+    color: gray; }
 
 /*---------------------------------------------------------------------------------------------*/
 

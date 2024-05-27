@@ -1,58 +1,11 @@
+@charset "UTF-8";
 /*CSS Reset*/
 * {
   margin: 0;
   padding: 0;
 }
 
-header {
-  background-color: #171D25;
-  width: 100%;
-  height: 120px;
-}
-header .header-logo {
-  width: 140px;
-  margin-left: 25px;
-}
-
-main h1 {
-  font: 24px Montserrat, Tahoma;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #CCC;
-}
-a .btn {
-  background-color: #171D25;
-  padding: 10px;
-  border-radius: 60px;
-}
-
-.container {
-  width: 1000px;
-  margin: auto;
-}
-.container h1 {
-  padding-top: 150px;
-}
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  /*Ele quebrar e cair as colunas para baixo*/
-}
-.flex .flex-coluna {
-  width: 25%;
-  margin: 20px;
-  padding: 20px;
-  box-shadow: 0 0 20px #CCC;
-  text-align: center;
-}
-
+/*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
 .header-nav {
   text-transform: uppercase;
   font: 17px Montserrat, Tahoma;
@@ -104,6 +57,91 @@ a .btn {
   text-align: center;
   color: #DCDEDF;
   padding: 20px;
+  bottom: 0;
+  width: 100%;
 }
+.footer p {
+  padding-bottom: 20px;
+}
+.footer a {
+  margin: 10px;
+}
+.footer a:hover {
+  color: gray;
+}
+
+/*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
+header {
+  background-color: #171D25;
+  width: 100%;
+  height: 120px;
+}
+header .header-logo {
+  width: 140px;
+  margin-left: 25px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #CCC;
+}
+a .btn {
+  background-color: #171D25;
+  padding: 10px;
+  border-radius: 60px;
+}
+
+/*------------------------------------CLASSES PADRÕES--------------------------------------------------------*/
+.centro {
+  text-align: center;
+}
+
+/*------------------------------------CONTAINER PÁGINA HOME--------------------------------------------------------*/
+.container_home {
+  width: 1000px;
+  margin: auto;
+}
+.container_home h1 {
+  padding-top: 150px;
+}
+
+.flex_home {
+  display: flex;
+  flex-wrap: wrap;
+  /*Ele quebrar e cair as colunas para baixo*/
+}
+.flex_home .flex-coluna_home {
+  width: 25%;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 20px #CCC;
+  text-align: center;
+}
+
+/*------------------------------------CONTAINER PÁGINA HOME--------------------------------------------------------*/
+/*------------------------------------CONTAINER PÁGINA EQUIPE--------------------------------------------------------*/
+.container_equipe {
+  width: 1000px;
+  margin: auto;
+}
+.container_equipe h1 {
+  padding-top: 150px;
+}
+
+.flex_equipe {
+  display: flex;
+  flex-wrap: wrap;
+  /*Ele quebrar e cair as colunas para baixo*/
+}
+.flex_equipe .flex-coluna_equipe {
+  width: 25%;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 20px #CCC;
+  text-align: center;
+}
+
+/*------------------------------------CONTAINER PÁGINA EQUIPE--------------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */

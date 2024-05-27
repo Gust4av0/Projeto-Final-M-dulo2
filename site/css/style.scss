@@ -11,58 +11,7 @@ $corFonte: #DCDEDF;
     padding: 0;
 }
 
-header {
-    background-color: $primaria;
-    width: 100%;
-    height: 120px;
-    .header-logo{
-        width: 140px;
-        margin-left: 25px;
-    }
-}
-
-main {
-    h1 {
-        font: 24px $fonte1;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: bold;
-    }
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: $secundaria;
-    .btn {
-        background-color: $primaria;
-        padding: 10px;
-        border-radius: 60px;
-    }
-}
-
-.container {
-    width: 1000px;
-    margin: auto;
-    h1 {
-        padding-top: 150px;
-    }
-}
-
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-
-    /*Ele quebrar e cair as colunas para baixo*/
-    .flex-coluna {
-        width: 25%;
-        margin: $margin;
-        padding: $margin;
-        box-shadow: 0 0 $margin $secundaria;
-        text-align: center;
-    }
-}
-
+/*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
 .header-nav {
     text-transform: uppercase;
     font: 17px $fonte1;
@@ -121,4 +70,94 @@ a {
     text-align: center;
     color: $corFonte;
     padding: 20px;
+    bottom: 0;
+    width: 100%;
+    p {
+        padding-bottom: 20px;
+    }
+    a{
+        margin: 10px;
+    }
+    a:hover{
+        color: gray;
+    }
 }
+/*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
+
+header {
+    background-color: $primaria;
+    width: 100%;
+    height: 120px;
+    .header-logo{
+        width: 140px;
+        margin-left: 25px;
+    }
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $secundaria;
+    .btn {
+        background-color: $primaria;
+        padding: 10px;
+        border-radius: 60px;
+    }
+}
+
+/*------------------------------------CLASSES PADRÕES--------------------------------------------------------*/
+.centro {
+    text-align: center;
+}
+
+
+
+/*------------------------------------CONTAINER PÁGINA HOME--------------------------------------------------------*/
+.container_home {
+    width: 1000px;
+    margin: auto;
+    h1 {
+        padding-top: 150px;
+    }
+}
+
+.flex_home {
+    display: flex;
+    flex-wrap: wrap;
+
+    /*Ele quebrar e cair as colunas para baixo*/
+    .flex-coluna_home {
+        width: 25%;
+        margin: $margin;
+        padding: $margin;
+        box-shadow: 0 0 $margin $secundaria;
+        text-align: center;
+    }
+}
+/*------------------------------------CONTAINER PÁGINA HOME--------------------------------------------------------*/
+
+/*------------------------------------CONTAINER PÁGINA EQUIPE--------------------------------------------------------*/
+.container_equipe {
+    width: 1000px;
+    margin: auto;
+    h1 {
+        padding-top: 150px;
+    }
+}
+
+.flex_equipe {
+    display: flex;
+    flex-wrap: wrap;
+
+    /*Ele quebrar e cair as colunas para baixo*/
+    .flex-coluna_equipe {
+        width: 25%;
+        margin: $margin;
+        padding: $margin;
+        box-shadow: 0 0 $margin $secundaria;
+        text-align: center;
+    }
+}
+/*------------------------------------CONTAINER PÁGINA EQUIPE--------------------------------------------------------*/
+
+

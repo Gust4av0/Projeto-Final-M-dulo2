@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detona Games - Home</title>
+    <title>Detona Games - Site</title>
     <meta name="description" content="Detona Games, o seu site repleto de Jogos para se divertir!">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -39,13 +39,13 @@
                     </a>
 
                     <div class="dropdonw-menu">
-                        <a href="#">Lenhador da Redenção</a>
-                        <a href="#">Jogo1</a>
-                        <a href="#">Jogo2</a>
-                        <a href="#">Jogo3</a>
-                        <a href="#">Jogo4</a>
-                        <a href="#">Jogo5</a>
-                        <a href="#">Jogo6</a>
+                        <a href="index.php?pg=jogo1">Lenhador da Redenção</a>
+                        <a href="index.php?pg=jogo2">Jogo2</a>
+                        <a href="index.php?pg=jogo3">Jogo3</a>
+                        <a href="index.php?pg=jogo4">Jogo4</a>
+                        <a href="index.php?pg=jogo5">Jogo5</a>
+                        <a href="index.php?pg=jogo6">Jogo6</a>
+                        <a href="index.php?pg=jogo7">Jogo7</a>
                     </div>
                 </li>
 

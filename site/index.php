@@ -62,13 +62,6 @@
                         Contato
                     </a>
                 </li>
-
-                <li class="btn-donwload">
-                    <a href="#">
-                        <i class="fa-solid fa-download"></i>
-                        Arquivos
-                    </a>
-                </li>
             </ul>
         </nav>
     </header>

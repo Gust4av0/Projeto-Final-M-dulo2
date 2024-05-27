@@ -21,6 +21,7 @@ header {
         margin-left: 25px;
     }
 }
+
 main {
     h1 {
         font: 24px $fonte1;
@@ -117,29 +118,3 @@ a {
         }
     }
 }
-
-.footer {
-    text-align: center;
-    background-color: $primaria;
-    color: $corFonte;
-    padding: 20px;
-    font: 16px $fonte1;
-    bottom: 0;
-    position: fixed;
-
-    p {
-        padding-bottom: 20px;
-    }
-
-    a {
-        text-decoration: none;
-        color: $secundaria;
-        padding: $margin;
-    }
-
-    a:hover {
-        color: gray;
-    }
-}
-
-/*---------------------------------------------------------------------------------------------*/

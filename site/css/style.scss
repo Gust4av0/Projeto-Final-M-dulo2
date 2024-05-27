@@ -4,7 +4,7 @@ $margin: 20px;
 $primaria: #171D25;
 $secundaria: #CCC;
 $corFonte: #DCDEDF;
-
+ 
 /*CSS Reset*/
 * {
     margin: 0;
@@ -115,4 +115,10 @@ a {
             color: $primaria;
         }
     }
+}
+.footer {
+    background-color: $primaria;
+    text-align: center;
+    color: $corFonte;
+    padding: 20px;
 }

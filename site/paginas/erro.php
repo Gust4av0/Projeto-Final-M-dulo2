@@ -1,2 +1,6 @@
-<h1>Erro 404</h1>
-<p>Página não encontrada!</p>
+<div>
+    <img src="imagens/404.png" alt="Página não encontrada">
+
+    <h2>A página que você está tentando acessar não foi encontrada!</h2>
+    
+</div>

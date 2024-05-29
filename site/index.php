@@ -39,25 +39,25 @@
                     </a>
 
                     <div class="dropdonw-menu">
-                        <a href="index.php?pg=jogo1">Lenhador da Redenção</a>
-                        <a href="index.php?pg=jogo2">Jogo2</a>
-                        <a href="index.php?pg=jogo3">Jogo3</a>
-                        <a href="index.php?pg=jogo4">Jogo4</a>
-                        <a href="index.php?pg=jogo5">Jogo5</a>
-                        <a href="index.php?pg=jogo6">Jogo6</a>
-                        <a href="index.php?pg=jogo7">Jogo7</a>
+                        <a href="lenhador-redencao">Lenhador da Redenção</a>
+                        <a href="jogo2">Jogo2</a>
+                        <a href="jogo3">Jogo3</a>
+                        <a href="jogo4">Jogo4</a>
+                        <a href="jogo5">Jogo5</a>
+                        <a href="jogo6">Jogo6</a>
+                        <a href="jogo7">Jogo7</a>
                     </div>
                 </li>
 
                 <li>
-                    <a href="index.php?pg=equipe" title="Sobre Equipe">
+                    <a href="equipe" title="Sobre Equipe">
                         <i class="fa-solid fa-people-group"></i>
                         Sobre Equipe
                     </a>
                 </li>
 
                 <li>
-                    <a href="index.php?pg=contato" title="Contato">
+                    <a href="contato" title="Contato">
                         <i class="fa-solid fa-envelope"></i>
                         Contato
                     </a>
@@ -68,16 +68,28 @@
 
     <main>
         <?php
-        
-        $pg = $_GET["pg"] ?? "home";
-        $pg = "paginas/{$pg}.php"; //inclui outra página dentro da mesma página
+            //verificar se o parametro existe
+            if (isset($_GET["param"])){
+                $param = $_GET["param"];
+                //separar o parametro por / 
+                $p = explode("/", $param); //explode ele explode a barrinha e separa
+            }
 
-        //verificar se um arquivo existe
-        if (file_exists($pg)){
-            include $pg; //a tag include serve para incluir uma página dentro de outra página
-        }else {
-            include "paginas/erro.php";
-        }
+            $page = $p[0] ?? "home";
+            $jogo = $p[1] ?? NULL;
+
+            if($page == "jogo"){
+                $pagina = "jogo/{$jogo}.php";
+            }else{
+                $pagina = "paginas/{$page}.php";
+            }
+
+            //verificar se a página existe
+            if (file_exists($pagina)){
+                include $pagina; //a tag include serve para incluir uma página dentro de outra página
+            }else {
+                include "paginas/erro.php";
+            }
         ?>
     </main>
 

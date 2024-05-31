@@ -13,58 +13,9 @@ $corFonte: #DCDEDF;
 
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
 .header-nav {
-    text-transform: uppercase;
-    font: 17px $fonte1;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    float: right;
-    padding-top: 30px;
-
-    ul li {
-        display: inline-block;
-        padding: $margin;
-    }
-
-    a {
-        text-decoration: none;
-        color: $corFonte;
-    }
-
-    a:hover {
-        color: gray;
-    }
-
-    .dropdonw-menu {
-        position: absolute;
-        display: none;
-        padding-top: 2px;
-    }
-
-    .dropdonw-menu a {
-        display: block;
-        text-transform: none;
-        padding: 12px;
-        background-color: $secundaria;
-        color: $primaria;
-    }
-
-    .dropdonw:hover .dropdonw-menu {
-        display: block;
-
-        a:hover {
-            background-color: $primaria;
-            color: $corFonte;
-        }
-    }
-
-    .btn-donwload {
-        background-color: #FFC107;
-        border-radius: 15px;
-        a {
-            color: $primaria;
-        }
-    }
+    background-color: $primaria;
 }
+
 .footer {
     background-color: $primaria;
     text-align: center;
@@ -84,9 +35,6 @@ $corFonte: #DCDEDF;
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
 
 header {
-    background-color: $primaria;
-    width: 100%;
-    height: 120px;
     .header-logo{
         width: 140px;
         margin-left: 25px;

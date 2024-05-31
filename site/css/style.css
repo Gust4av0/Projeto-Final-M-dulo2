@@ -7,49 +7,7 @@
 
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
 .header-nav {
-  text-transform: uppercase;
-  font: 17px Montserrat, Tahoma;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  float: right;
-  padding-top: 30px;
-}
-.header-nav ul li {
-  display: inline-block;
-  padding: 20px;
-}
-.header-nav a {
-  text-decoration: none;
-  color: #DCDEDF;
-}
-.header-nav a:hover {
-  color: gray;
-}
-.header-nav .dropdonw-menu {
-  position: absolute;
-  display: none;
-  padding-top: 2px;
-}
-.header-nav .dropdonw-menu a {
-  display: block;
-  text-transform: none;
-  padding: 12px;
-  background-color: #CCC;
-  color: #171D25;
-}
-.header-nav .dropdonw:hover .dropdonw-menu {
-  display: block;
-}
-.header-nav .dropdonw:hover .dropdonw-menu a:hover {
   background-color: #171D25;
-  color: #DCDEDF;
-}
-.header-nav .btn-donwload {
-  background-color: #FFC107;
-  border-radius: 15px;
-}
-.header-nav .btn-donwload a {
-  color: #171D25;
 }
 
 .footer {
@@ -70,11 +28,6 @@
 }
 
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
-header {
-  background-color: #171D25;
-  width: 100%;
-  height: 120px;
-}
 header .header-logo {
   width: 140px;
   margin-left: 25px;

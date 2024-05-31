@@ -14,55 +14,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
 
     <header>
-        <a href="index.php">
-            <img src="imagens/Logo.png" alt="Logo Detona Games" title="Detona Games" class="header-logo">
-        </a>
-
-        <nav class="header-nav">
-            <ul>
-                <li>
-                    <a href="index.php" title="Home">
-                        <i class="fa-solid fa-house"></i>
-                        Home
-                    </a>
-                </li>
-
-                <li class="dropdonw">
-                    <a href="#" title="Jogos">
-                        <i class="fa-solid fa-gamepad"></i>
-                        Jogos
-                    </a>
-
-                    <div class="dropdonw-menu">
-                        <a href="lenhador-redencao">Lenhador da Redenção</a>
-                        <a href="jogo2">Jogo2</a>
-                        <a href="jogo3">Jogo3</a>
-                        <a href="jogo4">Jogo4</a>
-                        <a href="jogo5">Jogo5</a>
-                        <a href="jogo6">Jogo6</a>
-                        <a href="jogo7">Jogo7</a>
-                    </div>
-                </li>
-
-                <li>
-                    <a href="equipe" title="Sobre Equipe">
-                        <i class="fa-solid fa-people-group"></i>
-                        Sobre Equipe
-                    </a>
-                </li>
-
-                <li>
-                    <a href="contato" title="Contato">
-                        <i class="fa-solid fa-envelope"></i>
-                        Contato
-                    </a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg" style="background-color: #171D25;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Jogos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Lenhador da Redenção</a></li>
+                                <li><a class="dropdown-item" href="#">Jogo2</a></li>
+                                <li><a class="dropdown-item" href="#">Jogo3</a></li>
+                                <li><a class="dropdown-item" href="#">Jogo4</a></li>
+                                <li><a class="dropdown-item" href="#">Jogo5</a></li>
+                                <li><a class="dropdown-item" href="#">Jogo6</a></li>
+                                <li><a class="dropdown-item" href="#">Jogo7</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="equipe">Sobre Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -106,5 +101,9 @@
     </footer>
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
 </html>

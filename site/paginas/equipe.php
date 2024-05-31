@@ -1,38 +1,91 @@
-<section class="centro">
 <h1>Nossa Equipe!</h1>
-<div class="container_equipe">
-    <div class="flex_equipe">
-        <div class="flex-coluna_equipe">
-            <img src="imagens/small-pic.png" alt="Imagem Teste" title="Teste">
-            <p>Lenhador da Redenção</p>
-            <a href="#">
-                <p class="btn">Detalhes</p>
-            </a>
-        </div>
 
-        <div class="flex-coluna_equipe">
-            <img src="imagens/small-pic.png" alt="Imagem Teste" title="Teste">
-            <p>Jogo 1</p>
-            <a href="#">
-                <p class="btn">Detalhes</p>
-            </a>
-        </div>
-
-        <div class="flex-coluna_equipe">
-            <img src="imagens/small-pic.png" alt="Imagem Teste" title="Teste">
-            <p>Jogo 2</p>
-            <a href="#">
-                <p class="btn">Detalhes</p>
-            </a>
-        </div>
-
-        <div class="flex-coluna_equipe">
-            <img src="imagens/small-pic.png" alt="Imagem Teste" title="Teste">
-            <p>Jogo 3</p>
-            <a href="#">
-                <p class="btn">Detalhes</p>
-            </a>
-        </div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="imagens/small-pic.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gustavo</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
     </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="imagens/small-pic.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gustavo</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="imagens/small-pic.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gustavo</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="imagens/small-pic.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gustavo</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="imagens/small-pic.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gustavo</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="imagens/small-pic.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="imagens/small-pic.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <img src="imagens/small-pic.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+          content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
 </div>
-</section>    

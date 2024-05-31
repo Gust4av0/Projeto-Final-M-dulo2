@@ -1,28 +1,14 @@
-<div class="centro">
-<h1>Contato da Equipe</h1>
-<h2>Preencha o Formulário</h2>
-<form name="formContato" method="post" action="formulario.php">
-    <label for="nome">Nome:</label>
-    <br>
-    <input type="text" name="text" id="telefone">
-    <br>
+<div class="mb-3">
+    <form action="formulario.php">
+        <label for="exampleFormControlInput1" class="form-label">Nome</label>
+        <input type="name" class="form-control" id="name" placeholder="Seu nome aqui!" required>
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Seu email aqui!" required>
 
-    <label for="telefone">Telefone:</label>
-    <br>
-    <input type="number" name="telefone" id="telefone">
-    <br>
-
-    <label for="email">E-mail</label>
-    <br>
-    <input type="email" name="email" id="email">
-    <br>
-
-    <button type="submit">
-        Enviar Formulário
-    </button>
-
-    <button type="reset">
-        Limpar Formulário
-    </button>
-</form>
+        <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
+        <textarea class="form-control" id="mensagem" rows="3"></textarea>
 </div>
+
+<button type="submit" class="btn btn-success">Enviar!</button>
+<button type="reset" class="btn btn-danger">Resetar</button>
+</form>

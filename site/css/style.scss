@@ -1,110 +1,65 @@
 $fonte1: Montserrat, Tahoma;
 $fonte2: Tahoma, Verdana;
 $margin: 20px;
-$primaria: #171D25;
-$secundaria: #CCC;
-$corFonte: #DCDEDF;
+$primaria: purple;
+$secundaria: #000;
+$corFonte: purple;
  
 /*CSS Reset*/
 * {
     margin: 0;
     padding: 0;
 }
-
-/*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
-.header-nav {
-    background-color: $primaria;
+#corFonte{
+    color: $primaria !important;
+    font-weight: bold !important;
+    font-family: $fonte1 !important;
 }
-
+#gridEquipe{
+    border-color: $primaria !important;
+    background-color: $secundaria !important;
+    color: $corFonte !important;
+    font-family: $fonte1;
+}
+#gridJogos{
+    border-color: $secundaria !important;
+    background-color: $primaria !important;
+    color: #FFF !important;
+    font-family: $fonte1;
+}
+#gridContato{
+    background-color: $secundaria !important;
+    color: $primaria !important;
+    font-family: $fonte1;
+}
+.centro{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    font-family: $fonte1;
+    color: $primaria;
+}
+.font{
+    font-family: $fonte1;
+}
+#nav{
+    background-color: $secundaria;
+    font-family: $fonte1;
+}
+/*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
+.carrosel-img{
+    object-fit: cover;
+    object-position: 0 100%;
+    height: 500px;
+    display: block;
+    width: 50%;
+}
 .footer {
-    background-color: $primaria;
+    background-color: $secundaria;
     text-align: center;
     color: $corFonte;
-    padding: 20px;
-    bottom: 0;
-    p {
-        padding-bottom: 20px;
-    }
-    a{
-        margin: 10px;
-    }
-    a:hover{
-        color: gray;
-    }
+    padding: 10px;
+    font-family: $fonte1;
 }
-/*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
-
-header {
-    .header-logo{
-        width: 140px;
-        margin-left: 25px;
-    }
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: $secundaria;
-    .btn {
-        background-color: $primaria;
-        padding: 10px;
-        border-radius: 60px;
-    }
-}
-
-/*------------------------------------CLASSES PADRÕES--------------------------------------------------------*/
-.centro {
-    text-align: center;
-}
-
-
-
-/*------------------------------------CONTAINER PÁGINA HOME--------------------------------------------------------*/
-.container_home {
-    width: 1000px;
-    margin: auto;
-    h1 {
-        padding-top: 150px;
-    }
-}
-
-.flex_home {
-    display: flex;
-    flex-wrap: wrap;
-
-    /*Ele quebrar e cair as colunas para baixo*/
-    .flex-coluna_home {
-        width: 25%;
-        margin: $margin;
-        padding: $margin;
-        box-shadow: 0 0 $margin $secundaria;
-        text-align: center;
-    }
-}
-/*------------------------------------CONTAINER PÁGINA HOME--------------------------------------------------------*/
-
-/*------------------------------------CONTAINER PÁGINA EQUIPE--------------------------------------------------------*/
-.container_equipe {
-    width: 1000px;
-    margin: auto;
-    h1 {
-        padding-top: 150px;
-    }
-}
-
-.flex_equipe {
-    display: flex;
-    flex-wrap: wrap;
-
-    /*Ele quebrar e cair as colunas para baixo*/
-    .flex-coluna_equipe {
-        width: 25%;
-        margin: $margin;
-        padding: $margin;
-        box-shadow: 0 0 $margin $secundaria;
-        text-align: center;
-    }
-}
-/*------------------------------------CONTAINER PÁGINA EQUIPE--------------------------------------------------------*/
-
-

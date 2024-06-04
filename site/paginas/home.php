@@ -46,8 +46,8 @@
     <img src="imagens" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">Lenhador da Redenção</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="lenhador_redencao" class="btn btn-dark">Informações</a>
+      <a href="#" class="btn btn-success">Jogue Agora!</a>
+      <a href="jogo1" class="btn btn-dark" id="margin">Informações</a>
     </div>
   </div>
 
@@ -55,8 +55,8 @@
     <img src="imagens" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">Jogo 2</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="jogo2" class="btn btn-dark">Informações</a>
+      <a href="#" class="btn btn-success">Jogue Agora!</a>
+      <a href="jogo2" class="btn btn-dark" id="margin">Informações</a>
     </div>
   </div>
 
@@ -64,8 +64,8 @@
     <img src="imagens" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">Jogo 3</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="jogo3" class="btn btn-dark">Informações</a>
+      <a href="#" class="btn btn-success">Jogue Agora!</a>
+      <a href="jogo3" class="btn btn-dark" id="margin">Informações</a>
     </div>
   </div>
 
@@ -73,8 +73,8 @@
     <img src="imagens" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">Jogo 4</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="jogo4" class="btn btn-dark">Informações</a>
+      <a href="#" class="btn btn-success">Jogue Agora!</a>
+      <a href="jogo4" class="btn btn-dark" id="margin">Informações</a>
     </div>
   </div>
 
@@ -82,8 +82,8 @@
     <img src="imagens" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">Jogo 5</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="jogo5" class="btn btn-dark">Informações</a>
+      <a href="#" class="btn btn-success">Jogue Agora!</a>
+      <a href="jogo5" class="btn btn-dark" id="margin">Informações</a>
     </div>
   </div>
 
@@ -91,8 +91,8 @@
     <img src="imagens" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">Jogo 6</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="jogo6" class="btn btn-dark">Informações</a>
+      <a href="#" class="btn btn-success">Jogue Agora!</a>
+      <a href="jogo6" class="btn btn-dark" id="margin">Informações</a>
     </div>
   </div>
 
@@ -100,8 +100,8 @@
     <img src="imagens" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">Jogo 7</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="jogo7" class="btn btn-dark">Informações</a>
+      <a href="#" class="btn btn-success">Jogue Agora!</a>
+      <a href="jogo7" class="btn btn-dark" id="margin">Informações</a>
     </div>
   </div>
 </div>

@@ -6,28 +6,28 @@
 }
 
 #corFonte {
-  color: purple !important;
+  color: #FFa586 !important;
   font-weight: bold !important;
   font-family: Montserrat, Tahoma !important;
 }
 
 #gridEquipe {
-  border-color: purple !important;
-  background-color: #000 !important;
-  color: purple !important;
+  border-color: #242f49 !important;
+  background-color: #384358 !important;
+  color: #FFa586 !important;
   font-family: Montserrat, Tahoma;
 }
 
 #gridJogos {
-  border-color: #000 !important;
-  background-color: purple !important;
+  border-color: #384358 !important;
+  background-color: #384358 !important;
   color: #FFF !important;
   font-family: Montserrat, Tahoma;
 }
 
 #gridContato {
-  background-color: #000 !important;
-  color: purple !important;
+  background-color: #384358 !important;
+  color: #FFa586 !important;
   font-family: Montserrat, Tahoma;
 }
 
@@ -39,7 +39,7 @@
   text-align: center;
   font-weight: bold;
   font-family: Montserrat, Tahoma;
-  color: purple;
+  color: #541a26;
 }
 
 .font {
@@ -47,8 +47,21 @@
 }
 
 #nav {
-  background-color: #000;
+  background-color: #242f49;
   font-family: Montserrat, Tahoma;
+}
+
+#margin {
+  margin: 20px;
+}
+
+#icones {
+  padding-bottom: 20px;
+  color: #242f49;
+}
+
+#dropdonw {
+  background-color: #384358;
 }
 
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
@@ -61,11 +74,16 @@
 }
 
 .footer {
-  background-color: #000;
+  background-color: #242f49;
   text-align: center;
-  color: purple;
+  color: #FFa586;
   padding: 10px;
   font-family: Montserrat, Tahoma;
+  margin-top: 50px;
+}
+
+main {
+  padding-top: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */

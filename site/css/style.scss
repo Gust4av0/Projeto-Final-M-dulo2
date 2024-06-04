@@ -1,9 +1,10 @@
 $fonte1: Montserrat, Tahoma;
 $fonte2: Tahoma, Verdana;
 $margin: 20px;
-$primaria: purple;
-$secundaria: #000;
-$corFonte: purple;
+$primaria: #242f49;
+$secundaria: #384358;
+$corFonte1: #FFa586;
+$corFonte2: #541a26;
  
 /*CSS Reset*/
 * {
@@ -11,25 +12,25 @@ $corFonte: purple;
     padding: 0;
 }
 #corFonte{
-    color: $primaria !important;
+    color: $corFonte1 !important;
     font-weight: bold !important;
     font-family: $fonte1 !important;
 }
 #gridEquipe{
     border-color: $primaria !important;
     background-color: $secundaria !important;
-    color: $corFonte !important;
+    color: $corFonte1 !important;
     font-family: $fonte1;
 }
 #gridJogos{
     border-color: $secundaria !important;
-    background-color: $primaria !important;
+    background-color: $secundaria !important;
     color: #FFF !important;
     font-family: $fonte1;
 }
 #gridContato{
     background-color: $secundaria !important;
-    color: $primaria !important;
+    color: $corFonte1 !important;
     font-family: $fonte1;
 }
 .centro{
@@ -39,14 +40,24 @@ $corFonte: purple;
     text-align: center;
     font-weight: bold;
     font-family: $fonte1;
-    color: $primaria;
+    color: $corFonte2;
 }
 .font{
     font-family: $fonte1;
 }
 #nav{
-    background-color: $secundaria;
+    background-color: $primaria;
     font-family: $fonte1;
+}
+#margin{
+    margin: $margin;
+}
+#icones{
+    padding-bottom: $margin;
+    color: $primaria;
+}
+#dropdonw{
+    background-color: $secundaria;
 }
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
 .carrosel-img{
@@ -57,9 +68,13 @@ $corFonte: purple;
     width: 50%;
 }
 .footer {
-    background-color: $secundaria;
+    background-color: $primaria;
     text-align: center;
-    color: $corFonte;
+    color: $corFonte1;
     padding: 10px;
     font-family: $fonte1;
+    margin-top: 50px;
+}
+main {
+    padding-top: 80px;
 }

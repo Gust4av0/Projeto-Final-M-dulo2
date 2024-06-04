@@ -21,19 +21,24 @@
 </head>
 
 <body>
-
     <!--Cabeçalho/Barra navegação-->
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top float-end" id="nav">
+        <nav class="navbar navbar-expand-lg fixed-top" id="nav">
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <ul class="navbar-nav">
-                        <li><a class="nav-link active" aria-current="page" href="index.php" id="corFonte">Home</a></li>
-                        <li><a class="nav-link" href="equipe" id="corFonte">Equipe</a></li>
+                        <li><a class="nav-link active" aria-current="page" href="index.php" id="corFonte">
+                        <i class="fa-solid fa-house-chimney"></i>    
+                        Home</a></li>
+                        <li><a class="nav-link" href="equipe" id="corFonte">
+                        <i class="fa-solid fa-people-group"></i>    
+                        Equipe</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false" id="corFonte">Jogos</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="lenhador_redencao" id="corFonte" id="corFonte">Lenhador da Redenção</a></li>
+                                aria-expanded="false" id="corFonte">
+                                <i class="fa-solid fa-headset"></i>
+                                Jogos</a>
+                            <ul class="dropdown-menu" id="dropdonw">
+                                <li><a class="dropdown-item" href="jogo1" id="corFonte" id="corFonte">Lenhador da Redenção</a></li>
                                 <li><a class="dropdown-item" href="jogo2" id="corFonte">Jogo2</a></li>
                                 <li><a class="dropdown-item" href="jogo3" id="corFonte">Jogo3</a></li>
                                 <li><a class="dropdown-item" href="jogo4" id="corFonte">Jogo4</a></li>
@@ -44,17 +49,25 @@
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="nav-link" href="#" data-bs-toggle="modal"
-                                        data-bs-target="#modal-contato" id="corFonte">Contato</a></li>
+                                        data-bs-target="#modal-contato" id="corFonte">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        Contato</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false" id="corFonte">Sobre</a>
-                            <ul class="dropdown-menu">
+                                aria-expanded="false" id="corFonte">
+                                <i class="fa-solid fa-question"></i>
+                                Sobre</a>
+                            <ul class="dropdown-menu" id="dropdonw">
                                 <li><a class="nav-link" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#modal-cadastro" id="corFonte">Cadastre-Se!</a></li>
+                                    data-bs-target="#modal-cadastro" id="corFonte">
+                                    <i class="fa-solid fa-gears"></i>
+                                    Cadastre-Se!</a></li>
                                 <li><a class="nav-link" href="#" data-bs-toggle="modal"
-                                        data-bs-target="#modal-login" id="corFonte">Login</a></li>
+                                        data-bs-target="#modal-login" id="corFonte">
+                                        <i class="fa-solid fa-right-to-bracket"></i>
+                                        Login</a></li>
                                     </ul>
                     </ul>
                 </div>
@@ -93,6 +106,9 @@
     <!--Rodapé-->
     <footer class="footer">
         <p>Site desenvolvido por Gustavo Marcolin Soares | &copy; Todos os Direitos Reservados!</p>
+
+        <a href=""><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        <a href="mailto:gustavomarcolin2005@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i></a>
     </footer>
 
     <!--Modal Contato-->
@@ -123,6 +139,7 @@
                         </div>
                     </form>
                 </div>
+                <a href="" class="centro"><i class="fa-brands fa-whatsapp fa-4x" id="icones"></i></a>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
                     <button type="button" class="btn btn-success">Enviar</button>

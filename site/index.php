@@ -139,7 +139,7 @@
                         </div>
                     </form>
                 </div>
-                <a href="" class="centro"><i class="fa-brands fa-whatsapp fa-4x" id="icones"></i></a>
+                <a href="#" class="centro"><i class="fa-brands fa-whatsapp fa-4x" id="icones"></i></a>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
                     <button type="button" class="btn btn-success">Enviar</button>

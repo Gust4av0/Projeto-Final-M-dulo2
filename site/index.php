@@ -34,48 +34,48 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.php" id="corFonte2">
+                            <a class="nav-link active" aria-current="page" href="index.php" id="corFonteNav">
                                 <i class="fa-solid fa-house-chimney"></i>
                                 Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="equipe" id="corFonte2">
+                            <a class="nav-link" href="equipe" id="corFonteNav">
                                 <i class="fa-solid fa-people-group"></i>
                                 Equipe</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false" id="corFonte2">
+                                aria-expanded="false" id="corFonteNav">
                                 <i class="fa-solid fa-headset"></i>
                                 Jogos
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="jogo1">Lenhador da Redenção</a></li>
-                                <li><a class="dropdown-item" href="jogo2">Jogo 2</a></li>
-                                <li><a class="dropdown-item" href="jogo2">Jogo 3</a></li>
-                                <li><a class="dropdown-item" href="jogo2">Jogo 4</a></li>
-                                <li><a class="dropdown-item" href="jogo2">Jogo 5</a></li>
-                                <li><a class="dropdown-item" href="jogo2">Jogo 6</a></li>
-                                <li><a class="dropdown-item" href="jogo2">Jogo 7</a></li>
+                            <ul class="dropdown-menu" id="gridNav">
+                                <li><a class="dropdown-item" href="jogo1" id="corFonteNav2">Lenhador da Redenção</a></li>
+                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 2</a></li>
+                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 3</a></li>
+                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 4</a></li>
+                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 5</a></li>
+                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 6</a></li>
+                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 7</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-login">
+                                <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-login" id="corFonteNav2">
                                         <i class="fa-solid fa-right-to-bracket"></i>
                                         Login</a></li>
                         </li>
                     </ul>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" id="corFonte2">
+                            aria-expanded="false" id="corFonteNav">
                             <i class="fa-solid fa-question"></i>
                             Sobre
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-cadastro">
+                        <ul class="dropdown-menu" id="gridNav">
+                            <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-cadastro" id="corFonteNav2">
                                     <i class="fa-solid fa-gears"></i>
                                     Cadastre-Se!</a></li>
-                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-contato">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-contato" id="corFonteNav2">
                                 <i class="fa-solid fa-envelope"></i>
                                 Contato</a>
                     </li>

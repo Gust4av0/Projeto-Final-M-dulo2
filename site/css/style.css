@@ -16,6 +16,16 @@
   font-family: Montserrat, Tahoma !important;
 }
 
+#corFonteNav {
+  color: #384358 !important;
+  font-family: Montserrat, Tahoma !important;
+}
+
+#corFonteNav2 {
+  color: #FFF !important;
+  font-family: Montserrat, Tahoma !important;
+}
+
 #gridEquipe {
   border-color: #242f49 !important;
   background-color: #384358 !important;
@@ -32,6 +42,12 @@
 
 #gridContato {
   background-color: #384358 !important;
+  color: #FFF !important;
+  font-family: Montserrat, Tahoma;
+}
+
+#gridNav {
+  background-color: #242f49 !important;
   color: #FFF !important;
   font-family: Montserrat, Tahoma;
 }

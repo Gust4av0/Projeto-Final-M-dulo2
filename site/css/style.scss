@@ -20,6 +20,14 @@ $corFonte2: #541a26;
     color: $corFonte1 !important;
     font-family: $fonte1 !important;
 }
+#corFonteNav{
+    color: $secundaria !important;
+    font-family: $fonte1 !important;
+}
+#corFonteNav2{
+    color: $corFonte1 !important;
+    font-family: $fonte1 !important;
+}
 #gridEquipe{
     border-color: $primaria !important;
     background-color: $secundaria !important;
@@ -34,6 +42,11 @@ $corFonte2: #541a26;
 }
 #gridContato{
     background-color: $secundaria !important;
+    color: $corFonte1 !important;
+    font-family: $fonte1;
+}
+#gridNav{
+    background-color: $primaria !important;
     color: $corFonte1 !important;
     font-family: $fonte1;
 }

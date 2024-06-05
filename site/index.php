@@ -23,52 +23,62 @@
 <body>
     <!--Cabeçalho/Barra navegação-->
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top" id="nav">
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav">
-                        <li><a class="nav-link active" aria-current="page" href="index.php" id="corFonte">
-                        <i class="fa-solid fa-house-chimney"></i>    
-                        Home</a></li>
-                        <li><a class="nav-link" href="equipe" id="corFonte">
-                        <i class="fa-solid fa-people-group"></i>    
-                        Equipe</a></li>
+        <nav class="navbar navbar-expand-lg" id="nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.php" id="corFonte2">DETONA GAMES</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.php" id="corFonte2">
+                                <i class="fa-solid fa-house-chimney"></i>
+                                Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="equipe" id="corFonte2">
+                                <i class="fa-solid fa-people-group"></i>
+                                Equipe</a>
+                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false" id="corFonte">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" id="corFonte2">
                                 <i class="fa-solid fa-headset"></i>
-                                Jogos</a>
-                            <ul class="dropdown-menu" id="dropdonw">
-                                <li><a class="dropdown-item" href="jogo1" id="corFonte" id="corFonte">Lenhador da Redenção</a></li>
-                                <li><a class="dropdown-item" href="jogo2" id="corFonte">Jogo2</a></li>
-                                <li><a class="dropdown-item" href="jogo3" id="corFonte">Jogo3</a></li>
-                                <li><a class="dropdown-item" href="jogo4" id="corFonte">Jogo4</a></li>
-                                <li><a class="dropdown-item" href="jogo5" id="corFonte">Jogo5</a></li>
-                                <li><a class="dropdown-item" href="jogo6"id="corFonte">Jogo6</a></li>
-                                <li><a class="dropdown-item" href="jogo7" id="corFonte">Jogo7</a></li>
+                                Jogos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="jogo1">Lenhador da Redenção</a></li>
+                                <li><a class="dropdown-item" href="jogo2">Jogo 2</a></li>
+                                <li><a class="dropdown-item" href="jogo2">Jogo 3</a></li>
+                                <li><a class="dropdown-item" href="jogo2">Jogo 4</a></li>
+                                <li><a class="dropdown-item" href="jogo2">Jogo 5</a></li>
+                                <li><a class="dropdown-item" href="jogo2">Jogo 6</a></li>
+                                <li><a class="dropdown-item" href="jogo2">Jogo 7</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="nav-link" href="#" data-bs-toggle="modal"
-                                        data-bs-target="#modal-contato" id="corFonte">
-                                        <i class="fa-solid fa-envelope"></i>
-                                        Contato</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false" id="corFonte">
-                                <i class="fa-solid fa-question"></i>
-                                Sobre</a>
-                            <ul class="dropdown-menu" id="dropdonw">
-                                <li><a class="nav-link" href="#" data-bs-toggle="modal"
-                                    data-bs-target="#modal-cadastro" id="corFonte">
-                                    <i class="fa-solid fa-gears"></i>
-                                    Cadastre-Se!</a></li>
-                                <li><a class="nav-link" href="#" data-bs-toggle="modal"
-                                        data-bs-target="#modal-login" id="corFonte">
+                                <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-login">
                                         <i class="fa-solid fa-right-to-bracket"></i>
                                         Login</a></li>
-                                    </ul>
+                        </li>
+                    </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" id="corFonte2">
+                            <i class="fa-solid fa-question"></i>
+                            Sobre
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-cadastro">
+                                    <i class="fa-solid fa-gears"></i>
+                                    Cadastre-Se!</a></li>
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-contato">
+                                <i class="fa-solid fa-envelope"></i>
+                                Contato</a>
+                    </li>
                     </ul>
                 </div>
             </div>
@@ -114,7 +124,7 @@
     <!--Modal Contato-->
     <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content" id="gridContato"> 
+            <div class="modal-content" id="gridContato">
                 <div class="modal-header">
                     <h5 class="modal-title" id="entreContato">Entre em Contato</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -129,13 +139,12 @@
 
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Endereço de Email</label>
-                            <input type="email" class="form-control" id="email"
-                                placeholder="Email aqui">
+                            <input type="email" class="form-control" id="email" placeholder="Email aqui">
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Deixe se Comentário</label>
-                            <textarea class="form-control" placeholder="Insira aqui seu Comentário"
-                                id="mensagem" rows="3"></textarea>
+                            <textarea class="form-control" placeholder="Insira aqui seu Comentário" id="mensagem"
+                                rows="3"></textarea>
                         </div>
                     </form>
                 </div>
@@ -160,8 +169,7 @@
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email Cadastrado</label>
-                            <input type="email" class="form-control" id="email"
-                                aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Senha</label>
@@ -185,37 +193,32 @@
                 <div class="modal-body">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                        <input type="name" class="form-control" id="nome"
-                            placeholder="Seu nome">
+                        <input type="name" class="form-control" id="nome" placeholder="Seu nome">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Sobrenome</label>
-                        <input type="name" class="form-control" id="sobrenome"
-                            placeholder="Sobrenome">
+                        <input type="name" class="form-control" id="sobrenome" placeholder="Sobrenome">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Data de Nascimento</label>
-                        <input type="date" class="form-control" id="dataNascimento"
-                            placeholder="Sobrenome">
+                        <input type="date" class="form-control" id="dataNascimento" placeholder="Sobrenome">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Documento</label>
-                        <input type="number" class="form-control" id="documento"
-                            placeholder="000.000.000-00">
+                        <input type="number" class="form-control" id="documento" placeholder="000.000.000-00">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email"
-                            placeholder="Seu melhor email">
+                        <input type="email" class="form-control" id="email" placeholder="Seu melhor email">
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
                         <input type="password" class="form-control" id="senha">
                     </div>
                     <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-success">Finalizar!</button>
-                </div>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-success">Finalizar!</button>
+                    </div>
                 </div>
             </div>
         </div>

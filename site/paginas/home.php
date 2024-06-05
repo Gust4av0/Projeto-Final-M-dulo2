@@ -41,7 +41,7 @@
     <div class="card-body" >
       <h5 class="card-title">Lenhador da Redenção</h5>
       <a href="#" class="btn btn-success">Jogue Agora!</a>
-      <a href="jogo1" class="btn btn-dark" id="margin">Informações</a>
+      <a href="jogo1" class="btn btn-outline-warning" id="margin">Informações</a>
     </div>
   </div>
 
@@ -50,7 +50,7 @@
     <div class="card-body" >
       <h5 class="card-title">Jogo 2</h5>
       <a href="#" class="btn btn-success">Jogue Agora!</a>
-      <a href="jogo2" class="btn btn-dark" id="margin">Informações</a>
+      <a href="jogo2" class="btn btn-outline-warning" id="margin">Informações</a>
     </div>
   </div>
 
@@ -59,7 +59,7 @@
     <div class="card-body" >
       <h5 class="card-title">Jogo 3</h5>
       <a href="#" class="btn btn-success">Jogue Agora!</a>
-      <a href="jogo3" class="btn btn-dark" id="margin">Informações</a>
+      <a href="jogo3" class="btn btn-outline-warning" id="margin">Informações</a>
     </div>
   </div>
 
@@ -68,7 +68,7 @@
     <div class="card-body" >
       <h5 class="card-title">Jogo 4</h5>
       <a href="#" class="btn btn-success">Jogue Agora!</a>
-      <a href="jogo4" class="btn btn-dark" id="margin">Informações</a>
+      <a href="jogo4" class="btn btn-outline-warning" id="margin">Informações</a>
     </div>
   </div>
 
@@ -77,7 +77,7 @@
     <div class="card-body" >
       <h5 class="card-title">Jogo 5</h5>
       <a href="#" class="btn btn-success">Jogue Agora!</a>
-      <a href="jogo5" class="btn btn-dark" id="margin">Informações</a>
+      <a href="jogo5" class="btn btn-outline-warning" id="margin">Informações</a>
     </div>
   </div>
 
@@ -86,7 +86,7 @@
     <div class="card-body" >
       <h5 class="card-title">Jogo 6</h5>
       <a href="#" class="btn btn-success">Jogue Agora!</a>
-      <a href="jogo6" class="btn btn-dark" id="margin">Informações</a>
+      <a href="jogo6" class="btn btn-outline-warning" id="margin">Informações</a>
     </div>
   </div>
 
@@ -95,7 +95,7 @@
     <div class="card-body" >
       <h5 class="card-title">Jogo 7</h5>
       <a href="#" class="btn btn-success">Jogue Agora!</a>
-      <a href="jogo7" class="btn btn-dark" id="margin">Informações</a>
+      <a href="jogo7" class="btn btn-outline-warning" id="margin">Informações</a>
     </div>
   </div>
 </div>

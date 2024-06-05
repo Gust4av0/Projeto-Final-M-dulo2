@@ -6,15 +6,20 @@
 }
 
 #corFonte {
-  color: #FFa586 !important;
+  color: #FFF !important;
   font-weight: bold !important;
+  font-family: Montserrat, Tahoma !important;
+}
+
+#corFonte2 {
+  color: #FFF !important;
   font-family: Montserrat, Tahoma !important;
 }
 
 #gridEquipe {
   border-color: #242f49 !important;
   background-color: #384358 !important;
-  color: #FFa586 !important;
+  color: #FFF !important;
   font-family: Montserrat, Tahoma;
 }
 
@@ -27,7 +32,7 @@
 
 #gridContato {
   background-color: #384358 !important;
-  color: #FFa586 !important;
+  color: #FFF !important;
   font-family: Montserrat, Tahoma;
 }
 
@@ -57,7 +62,7 @@
 
 #icones {
   padding-bottom: 20px;
-  color: #FFa586;
+  color: #FFF;
 }
 
 #dropdonw {
@@ -76,14 +81,17 @@
 .footer {
   background-color: #242f49;
   text-align: center;
-  color: #FFa586;
+  color: #FFF;
   padding: 10px;
   font-family: Montserrat, Tahoma;
   margin-top: 50px;
 }
-
-main {
-  padding-top: 80px;
+.footer a {
+  color: #384358;
+  margin: 10px;
+}
+.footer a:hover {
+  color: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */

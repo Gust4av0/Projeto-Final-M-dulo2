@@ -3,7 +3,7 @@ $fonte2: Tahoma, Verdana;
 $margin: 20px;
 $primaria: #242f49;
 $secundaria: #384358;
-$corFonte1: #FFa586;
+$corFonte1: #FFF;
 $corFonte2: #541a26;
  
 /*CSS Reset*/
@@ -14,6 +14,10 @@ $corFonte2: #541a26;
 #corFonte{
     color: $corFonte1 !important;
     font-weight: bold !important;
+    font-family: $fonte1 !important;
+}
+#corFonte2{
+    color: $corFonte1 !important;
     font-family: $fonte1 !important;
 }
 #gridEquipe{
@@ -74,7 +78,11 @@ $corFonte2: #541a26;
     padding: 10px;
     font-family: $fonte1;
     margin-top: 50px;
-}
-main {
-    padding-top: 80px;
+    a{
+        color: $secundaria;
+        margin: 10px;
+        &:hover{
+            color: $corFonte1;
+        }
+    }
 }

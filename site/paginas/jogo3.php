@@ -2,7 +2,7 @@
 <div id="carouselExampleDark" class="carousel carousel-dark slide">
     <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-            <img src="jogos/RedDead/images/red_banner.jpg" class="carrosel-img" alt="...">
+            <img src="jogos/RedDead/images/red_banner.jpg" class="w-50 img-fluid rounded mx-auto d-block " alt="...">
         </div>
     </div>
 

@@ -17,32 +17,32 @@
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-    <img src="jogos/Gta/images/gta_banner.jpg" class="w-50 h-75 d-inline-block alt="...">
+    <img src="jogos/Gta/images/gta_banner.jpg" class=" w-50 img-fluid rounded mx-auto d-block "...">
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="jogos/RedDead/images/red_banner.jpg" class="w-50 h-75 d-inline-block" alt="...">
+      <img src="jogos/RedDead/images/red_banner.jpg" class="w-50 img-fluid rounded mx-auto d-block " alt="...">
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="jogos/Resident/images/resident_banner.jpg" class="w-50 h-75 d-inline-block" alt="...">
+      <img src="jogos/Resident/images/resident_banner.jpg" class="w-50 img-fluid rounded mx-auto d-block " alt="...">
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="jogos/Us/images/us_banner.jpg" class="w-50 h-75 d-inline-block" alt="...">
+      <img src="jogos/Us/images/us_banner.jpg" class="w-50 img-fluid rounded mx-auto d-block " alt="...">
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="jogos/Pubg/images/pubg_banner.jpg" class="w-50 h-75 d-inline-block" alt="...">
+      <img src="jogos/Pubg/images/pubg_banner.jpg" class="w-50 img-fluid rounded mx-auto d-block " alt="...">
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="jogos/Dbd/images/dbd_banner.jpg" class="w-50 h-75 d-inline-block" alt="...">
+      <img src="jogos/Dbd/images/dbd_banner.jpg" class="w-50 img-fluid rounded mx-auto d-block " alt="...">
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>

@@ -51,12 +51,12 @@
                             </a>
                             <ul class="dropdown-menu" id="gridNav">
                                 <li><a class="dropdown-item" href="jogo1" id="corFonteNav2">Lenhador da Redenção</a></li>
-                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 2</a></li>
-                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 3</a></li>
-                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 4</a></li>
-                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 5</a></li>
-                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 6</a></li>
-                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">Jogo 7</a></li>
+                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">GTA V</a></li>
+                                <li><a class="dropdown-item" href="jogo3" id="corFonteNav2">Red Dead Redemption 2</a></li>
+                                <li><a class="dropdown-item" href="jogo4" id="corFonteNav2">Resident Evil 4</a></li>
+                                <li><a class="dropdown-item" href="jogo5" id="corFonteNav2">The Last of Us™ Part I</a></li>
+                                <li><a class="dropdown-item" href="jogo6" id="corFonteNav2">PUBG: BATTLEGROUNDS</a></li>
+                                <li><a class="dropdown-item" href="jogo7" id="corFonteNav2">Dead by Daylight</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>

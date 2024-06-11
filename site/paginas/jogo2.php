@@ -1,10 +1,6 @@
 <h1 class="titulo">GTA V</h1>
-<div id="carouselExampleDark" class="carousel carousel-dark slide">
-    <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-            <img src="jogos/Gta/images/gta_banner.jpg" class="w-50 img-fluid rounded mx-auto d-block " alt="...">
-        </div>
-    </div>
+<img src="jogos/Gta/images/3.jpg" class="img-thumbnail" alt="...">
+
 
     <p>Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).
     </p>
@@ -29,8 +25,15 @@
     <div class="card-body">
     </div>
   </div>
+ 
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="jogos/Gta/images/gta_banner.jpg" class="w-50 img-fluid rounded mx-auto d-block " alt="...">
+        </div>
+    </div>
 
   <h1 class="titulo">Jogue Agora!</h1>
   <div class="centro">
-  <a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/"class="btn btn-outline-success">Play!</a>
+  <a href="https://bj-share.info/login.php?c"class="btn btn-outline-success">Play!</a>
   </div>

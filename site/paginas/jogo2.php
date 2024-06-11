@@ -1,8 +1,8 @@
-<h1 class="titulo">GTA V</h1>
 <img src="jogos/Gta/images/3.jpg" class="img-thumbnail" alt="...">
 
+    <h1 class="titulo">GTA V</h1>
 
-    <p>Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).
+    <p id="paragrafo">Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).
     </p>
 
     <h2 class="titulo">Imagens do Game:</h2>

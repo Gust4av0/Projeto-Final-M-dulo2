@@ -1,7 +1,8 @@
-<h1 class="titulo">Dead by Daylight</h1>
 <img src="jogos/Dbd/images/1.jpg" class="img-thumbnail" alt="...">
 
-    <p>Dead by Daylight é um jogo de terror multijogador (4vs1) onde um jogador assume o papel do assassino selvagem e os outros quatro jogadores jogam como sobreviventes, tentando escapar do assassino e evitar serem capturados e mortos.
+    <h1 class="titulo">Dead by Daylight</h1>
+
+    <p id="paragrafo">Dead by Daylight é um jogo de terror multijogador (4vs1) onde um jogador assume o papel do assassino selvagem e os outros quatro jogadores jogam como sobreviventes, tentando escapar do assassino e evitar serem capturados e mortos.
     </p>
 
     <h2 class="titulo">Imagens do Game:</h2>

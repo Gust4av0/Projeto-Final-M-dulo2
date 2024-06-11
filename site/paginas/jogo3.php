@@ -1,7 +1,8 @@
-<h1 class="titulo">Red Dead Redemption 2</h1>
 <img src="jogos/RedDead/images/1.jpg" class="img-thumbnail" alt="...">
 
-    <p>Red Dead Redemption 2, a épica aventura de mundo aberto da Rockstar Games aclamada pela crítica e o jogo mais bem avaliado desta geração de consoles, agora chega aprimorado para PC com conteúdos inéditos no Modo História, melhorias visuais e muito mais.
+  <h1 class="titulo">Red Dead Redemption 2</h1>
+
+    <p id="paragrafo">Red Dead Redemption 2, a épica aventura de mundo aberto da Rockstar Games aclamada pela crítica e o jogo mais bem avaliado desta geração de consoles, agora chega aprimorado para PC com conteúdos inéditos no Modo História, melhorias visuais e muito mais.
     </p>
 
     <h2 class="titulo">Imagens do Game:</h2>

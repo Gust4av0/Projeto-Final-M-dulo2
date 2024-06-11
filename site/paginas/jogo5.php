@@ -1,8 +1,8 @@
-<h1 class="titulo">The Last of Us™ Part I</h1>
 <img src="jogos/Us/images/1.jpg" class="img-thumbnail" alt="...">
 
-
-    <p>Conheça a história emocionante e os personagens inesquecíveis de The Last of Us™, vencedor de mais de 200 prêmios de Jogo do Ano.
+    <h1 class="titulo">The Last of Us™ Part I</h1>
+    
+    <p id="paragrafo">Conheça a história emocionante e os personagens inesquecíveis de The Last of Us™, vencedor de mais de 200 prêmios de Jogo do Ano.
     </p>
 
     <h2 class="titulo">Imagens do Game:</h2>

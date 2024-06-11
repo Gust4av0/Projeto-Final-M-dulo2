@@ -32,12 +32,18 @@
   color: #FFF !important;
   font-family: Montserrat, Tahoma;
 }
+#gridEquipe:hover {
+  border-color: white !important;
+}
 
 #gridJogos {
   border-color: #384358 !important;
   background-color: #384358 !important;
   color: #FFF !important;
   font-family: Montserrat, Tahoma;
+}
+#gridJogos:hover {
+  border-color: white !important;
 }
 
 #gridContato {
@@ -83,6 +89,26 @@
 
 #dropdonw {
   background-color: #384358;
+}
+
+header {
+  padding-bottom: 20px;
+  background-color: #000;
+}
+
+main {
+  background-color: #000;
+}
+
+body {
+  background-color: #000 !important;
+}
+
+#paragrafo {
+  color: white;
+  font: 25px Montserrat, Tahoma;
+  text-align: center;
+  padding: 10px;
 }
 
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/

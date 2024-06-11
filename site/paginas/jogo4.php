@@ -1,7 +1,8 @@
-<h1 class="titulo">Resident Evil 4</h1>
 <img src="jogos/Resident/images/1.jpg" class="img-thumbnail" alt="...">
 
-    <p>Sobrevivência é apenas o começo. Seis anos se passaram desde o desastre biológico em Raccoon City. Leon S. Kennedy, um dos sobreviventes, segue o rastro da raptada filha do presidente até uma vila europeia isolada, onde há algo terrivelmente errado com os habitantes.
+    <h1 class="titulo">Resident Evil 4</h1>
+
+    <p id="paragrafo">Sobrevivência é apenas o começo. Seis anos se passaram desde o desastre biológico em Raccoon City. Leon S. Kennedy, um dos sobreviventes, segue o rastro da raptada filha do presidente até uma vila europeia isolada, onde há algo terrivelmente errado com os habitantes.
     </p>
 
     <h2 class="titulo">Imagens do Game:</h2>

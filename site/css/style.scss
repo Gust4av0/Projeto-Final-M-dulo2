@@ -33,12 +33,18 @@ $corFonte2: #541a26;
     background-color: $secundaria !important;
     color: $corFonte1 !important;
     font-family: $fonte1;
+    &:hover{
+        border-color: white !important;
+    }
 }
 #gridJogos{
     border-color: $secundaria !important;
     background-color: $secundaria !important;
     color: #FFF !important;
     font-family: $fonte1;
+    &:hover{
+        border-color: white !important;
+    }
 }
 #gridContato{
     background-color: $secundaria !important;
@@ -76,6 +82,23 @@ $corFonte2: #541a26;
 #dropdonw{
     background-color: $secundaria;
 }
+header{
+    padding-bottom: 20px;
+    background-color: #000;
+}
+main {
+    background-color: #000;
+}
+body{
+    background-color: #000 !important;
+}
+#paragrafo{
+    color: white;
+    font: 25px $fonte1;
+    text-align: center;
+    padding: 10px;
+}
+
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
 .carrosel-img{
     object-fit: cover;

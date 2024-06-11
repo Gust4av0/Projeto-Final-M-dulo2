@@ -1,8 +1,8 @@
-<h1 class="titulo">PUBG: BATTLEGROUNDS</h1>
 <img src="jogos/Pubg/images/1.jpg" class="img-thumbnail" alt="...">
 
+    <h1 class="titulo">PUBG: BATTLEGROUNDS</h1>
 
-    <p>Jogue PUBG: BATTLEGROUNDS de graça. Pouse em locais estratégicos, saqueie armas e suprimentos e sobreviva para se tornar a última equipe de pé nos mais variados campos de batalha.
+    <p id="paragrafo">Jogue PUBG: BATTLEGROUNDS de graça. Pouse em locais estratégicos, saqueie armas e suprimentos e sobreviva para se tornar a última equipe de pé nos mais variados campos de batalha.
     </p>
 
     <h2 class="titulo">Imagens do Game:</h2>

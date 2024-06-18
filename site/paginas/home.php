@@ -12,48 +12,48 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="2500">
-      <img src="" class="w-100 h-75 d-inline-block" alt="...">
+      <img src="jogos/RedDead/images/red_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo2">
-        <img src="jogos/Gta/images/gta_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/Gta/images/gta_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo3">
-        <img src="jogos/RedDead/images/red_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/RedDead/images/red_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo4">
-        <img src="jogos/Resident/images/resident_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/Resident/images/resident_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo5">
-        <img src="jogos/Us/images/us_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/Us/images/us_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo6">
-        <img src="jogos/Pubg/images/pubg_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/Pubg/images/pubg_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo7">
-        <img src="jogos/Dbd/images/dbd_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/Dbd/images/dbd_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
@@ -72,7 +72,7 @@
 <h1 class="titulo">Melhores Jogos!</h1>
 
 <div class="row justify-content-center font">
-  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos">
+  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-right">
     <img src="imagens" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">Lenhador da Redenção</h5>
@@ -81,7 +81,8 @@
     </div>
   </div>
 
-  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos">
+  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-up"
+  data-aos-duration="1000">
     <img src="jogos/Gta/images/gta_banner.jpg" class="card-img-top w-100" alt="...">
     <div class="card-body" >
       <h5 class="card-title">GTA V</h5>
@@ -90,7 +91,7 @@
     </div>
   </div>
 
-  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos">
+  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-left"> 
     <img src="jogos/RedDead/images/red_banner.jpg" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">Red Dead Redemption 2</h5>
@@ -100,18 +101,10 @@
   </div>
 </div>
 
-<!--Banner-->
-<div id="carouselExampleFade" class="carousel slide carousel-fade">
-  <div class="carousel-inner">
-    <div class="w-50 img-fluid rounded mx-auto d-block">
-      <img src="jogos/Resident/images/resident_banner.jpg" class="d-block w-100" alt="...">
-    </div>
-</div>
-
 <h1 class="titulo">Jogos Similares!</h1>
 
 <div class="row justify-content-center font">
-  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos">
+  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-right">
     <img src="jogos/Us/images/us_banner.jpg" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">The Last of Us™ Part I</h5>
@@ -120,7 +113,8 @@
     </div>
   </div>
 
-  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos">
+  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-up"
+  data-aos-duration="1000">
     <img src="jogos/Pubg/images/pubg_banner.jpg" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">PUBG: BATTLEGROUNDS</h5>
@@ -129,7 +123,7 @@
     </div>
   </div>
 
-  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos">
+  <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-left">
     <img src="jogos/Dbd/images/dbd_banner.jpg" class="card-img-top" alt="...">
     <div class="card-body" >
       <h5 class="card-title">Dead by Daylight</h5>

@@ -10,50 +10,50 @@
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner container-lg">
     <div class="carousel-item active" data-bs-interval="2500">
-      <img src="jogos/RedDead/images/red_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
+      <img src="jogos/RedDead/images/red_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo2">
-        <img src="jogos/Gta/images/gta_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/Gta/images/gta_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo3">
-        <img src="jogos/RedDead/images/red_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/RedDead/images/red_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo4">
-        <img src="jogos/Resident/images/resident_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/Resident/images/resident_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo5">
-        <img src="jogos/Us/images/us_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/Us/images/us_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo6">
-        <img src="jogos/Pubg/images/pubg_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/Pubg/images/pubg_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo7">
-        <img src="jogos/Dbd/images/dbd_banner.jpg" class="w-75 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/Dbd/images/dbd_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
@@ -69,7 +69,7 @@
   </button>
 </div>
 
-<h1 class="titulo">Melhores Jogos!</h1>
+<h1 class="titulo" data-aos="fade-up">Jogos em Destaque!</h1>
 
 <div class="row justify-content-center font">
   <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-right">
@@ -101,7 +101,7 @@
   </div>
 </div>
 
-<h1 class="titulo">Jogos Similares!</h1>
+<h1 class="titulo" data-aos="fade-up">Lançamentos</h1>
 
 <div class="row justify-content-center font">
   <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-right">

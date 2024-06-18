@@ -63,7 +63,8 @@ $corFonte2: #541a26;
     text-align: center;
     font-weight: bold;
     font-family: $fonte1;
-    color: $corFonte2;
+    color: $corFonte1;
+    padding: 80px;
 }
 .font{
     font-family: $fonte1;
@@ -111,9 +112,9 @@ body{
     background-color: $primaria;
     text-align: center;
     color: $corFonte1;
-    padding: 10px;
+    padding: 20px;
     font-family: $fonte1;
-    margin-top: 50px;
+    margin-top: 100px;
     a{
         color: $secundaria;
         margin: 10px;

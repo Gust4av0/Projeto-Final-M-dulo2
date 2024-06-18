@@ -66,7 +66,8 @@
   text-align: center;
   font-weight: bold;
   font-family: Montserrat, Tahoma;
-  color: #541a26;
+  color: #FFF;
+  padding: 80px;
 }
 
 .font {
@@ -124,9 +125,9 @@ body {
   background-color: #242f49;
   text-align: center;
   color: #FFF;
-  padding: 10px;
+  padding: 20px;
   font-family: Montserrat, Tahoma;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .footer a {
   color: #384358;

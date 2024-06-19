@@ -1,4 +1,4 @@
-<img src="jogos/Us/images/1.jpg" class="img-thumbnail" alt="...">
+<img src="jogos/Us/images/us_banner.jpg" class="img-thumbnail" alt="...">
 
     <h1 class="titulo">The Last of Us™ Part I</h1>
     

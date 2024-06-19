@@ -1,4 +1,4 @@
-<img src="jogos/Resident/images/1.jpg" class="img-thumbnail" alt="...">
+<img src="jogos/Resident/images/resident_banner.jpg" class="img-thumbnail" alt="...">
 
     <h1 class="titulo">Resident Evil 4</h1>
 

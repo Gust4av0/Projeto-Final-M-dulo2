@@ -99,7 +99,22 @@ body{
     text-align: center;
     padding: 10px;
 }
-
+#logo{
+    width: 125px;
+}
+.navbar{
+    & .navbar-toggler{
+        background-color: #FFF;
+    }
+}
+#imagem-logo{
+    padding: 15px;
+    border-radius: 35px;
+}
+#imagemEquipe{
+    padding: 10px;
+    border-radius: 150px;
+}
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
 .carrosel-img{
     object-fit: cover;

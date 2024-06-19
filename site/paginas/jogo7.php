@@ -1,4 +1,4 @@
-<img src="jogos/Dbd/images/1.jpg" class="img-thumbnail" alt="...">
+<img src="jogos/Dbd/images/header.jpeg" class="img-thumbnail" alt="...">
 
     <h1 class="titulo">Dead by Daylight</h1>
 

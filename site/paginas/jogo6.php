@@ -1,4 +1,4 @@
-<img src="jogos/Pubg/images/1.jpg" class="img-thumbnail" alt="...">
+<img src="jogos/Pubg/images/pubg_banner.jpg" class="img-thumbnail" alt="...">
 
     <h1 class="titulo">PUBG: BATTLEGROUNDS</h1>
 

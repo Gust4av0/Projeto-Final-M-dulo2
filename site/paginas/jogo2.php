@@ -1,4 +1,4 @@
-<img src="jogos/Gta/images/3.jpg" class="img-thumbnail" alt="...">
+<img src="jogos/Gta/images/gta_banner.jpg" class="img-thumbnail" alt="...">
 
     <h1 class="titulo">GTA V</h1>
 

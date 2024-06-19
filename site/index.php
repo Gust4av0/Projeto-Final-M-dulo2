@@ -8,6 +8,9 @@
     <meta name="description" content="Detona Games, o seu site repleto de Jogos para se divertir!">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" href="imagens/Logo.png">
+
+    <base href="http://localhost/Projeto-Final-Modulo2/site/">
 
     <!--Fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +22,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,7 +30,9 @@
     <header>
         <nav class="navbar navbar-expand-lg" id="nav" data-aos="fade-right">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.php" id="corFonte2">DETONA GAMES</a>
+                <a class="navbar-brand" href="index.php">
+                    <img src="imagens/Logo.png" alt="Logo Site" id="logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">

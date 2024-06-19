@@ -1,6 +1,6 @@
 <div class="body">
 
-<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="2500">
+<div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel" data-bs-interval="2500">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -53,7 +53,7 @@
     </div>
     <div class="carousel-item" data-bs-interval="2500">
       <a href="jogo7">
-        <img src="jogos/Dbd/images/dbd_banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
+        <img src="jogos/Dbd/images/header.jpeg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
       </a>
       <div class="carousel-caption d-none d-md-block">
       </div>
@@ -83,7 +83,7 @@
 
   <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-up"
   data-aos-duration="1000">
-    <img src="jogos/Gta/images/gta_banner.jpg" class="card-img-top w-100" alt="...">
+    <img src="jogos/Gta/images/logo.webp" class="card-img-top w-100" alt="..." id="imagem-logo">
     <div class="card-body" >
       <h5 class="card-title">GTA V</h5>
       <a href="https://bj-share.info/login.php?c" class="btn btn-success">Jogue Agora!</a>
@@ -92,7 +92,7 @@
   </div>
 
   <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-left"> 
-    <img src="jogos/RedDead/images/red_banner.jpg" class="card-img-top" alt="...">
+    <img src="jogos/RedDead/images/logo.jpg" class="card-img-top" alt="..." id="imagem-logo">
     <div class="card-body" >
       <h5 class="card-title">Red Dead Redemption 2</h5>
       <a href="https://bj-share.info/login.php?c" class="btn btn-success">Jogue Agora!</a>
@@ -105,7 +105,7 @@
 
 <div class="row justify-content-center font">
   <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-right">
-    <img src="jogos/Us/images/us_banner.jpg" class="card-img-top" alt="...">
+    <img src="jogos/Us/images/logo.jpg" class="card-img-top" alt="..." id="imagem-logo">
     <div class="card-body" >
       <h5 class="card-title">The Last of Us™ Part I</h5>
       <a href="https://bj-share.info/login.php?c" class="btn btn-success">Jogue Agora!</a>
@@ -115,7 +115,7 @@
 
   <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-up"
   data-aos-duration="1000">
-    <img src="jogos/Pubg/images/pubg_banner.jpg" class="card-img-top" alt="...">
+    <img src="jogos/Pubg/images/logo.jpg" class="card-img-top" alt="..." id="imagem-logo">
     <div class="card-body" >
       <h5 class="card-title">PUBG: BATTLEGROUNDS</h5>
       <a href="https://bj-share.info/login.php?c" class="btn btn-success">Jogue Agora!</a>
@@ -124,7 +124,7 @@
   </div>
 
   <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-left">
-    <img src="jogos/Dbd/images/dbd_banner.jpg" class="card-img-top" alt="...">
+    <img src="jogos/Dbd/images/logo.jpeg" class="card-img-top" alt="..." id="imagem-logo">
     <div class="card-body" >
       <h5 class="card-title">Dead by Daylight</h5>
       <a href="https://bj-share.info/login.php?c" class="btn btn-success">Jogue Agora!</a>

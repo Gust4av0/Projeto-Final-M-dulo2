@@ -1,4 +1,4 @@
-<img src="jogos/RedDead/images/1.jpg" class="img-thumbnail" alt="...">
+<img src="jogos/RedDead/images/red_banner.jpg" class="img-thumbnail" alt="...">
 
   <h1 class="titulo">Red Dead Redemption 2</h1>
 

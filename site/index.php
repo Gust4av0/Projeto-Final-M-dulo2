@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="shortcut icon" href="imagens/Logo.png">
 
-    <base href="http://localhost/Projeto-Final-Modulo2/site/">
+    <base href="http://localhost/DetonaGames/site/">
 
     <!--Fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">

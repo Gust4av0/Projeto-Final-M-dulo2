@@ -95,6 +95,7 @@
 header {
   padding-bottom: 20px;
   background-color: #000;
+  padding-bottom: 200px;
 }
 
 main {
@@ -113,7 +114,7 @@ body {
 }
 
 #logo {
-  width: 125px;
+  width: 80px;
 }
 
 .navbar .navbar-toggler {
@@ -128,6 +129,10 @@ body {
 #imagemEquipe {
   padding: 10px;
   border-radius: 150px;
+}
+
+.hover:hover {
+  background-color: #384358 !important;
 }
 
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/

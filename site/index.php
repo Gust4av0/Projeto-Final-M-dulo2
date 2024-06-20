@@ -1,3 +1,9 @@
+<?php
+    //configurações API
+    $api_key = "4619b955d4ee4ca48c251fd6d85068b2";
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -28,7 +34,7 @@
 <body>
     <!--Cabeçalho/Barra navegação-->
     <header>
-        <nav class="navbar navbar-expand-lg" id="nav" data-aos="fade-right">
+        <nav class="navbar navbar-expand-lg fixed-top" id="nav" data-aos="fade-right">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.php">
                     <img src="imagens/Logo.png" alt="Logo Site" id="logo">
@@ -38,6 +44,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -57,37 +64,60 @@
                                 Jogos
                             </a>
                             <ul class="dropdown-menu" id="gridNav">
-                                <li><a class="dropdown-item" href="jogo1" id="corFonteNav2">Lenhador da Redenção</a></li>
-                                <li><a class="dropdown-item" href="jogo2" id="corFonteNav2">GTA V</a></li>
-                                <li><a class="dropdown-item" href="jogo3" id="corFonteNav2">Red Dead Redemption 2</a></li>
-                                <li><a class="dropdown-item" href="jogo4" id="corFonteNav2">Resident Evil 4</a></li>
-                                <li><a class="dropdown-item" href="jogo5" id="corFonteNav2">The Last of Us™ Part I</a></li>
-                                <li><a class="dropdown-item" href="jogo6" id="corFonteNav2">PUBG: BATTLEGROUNDS</a></li>
-                                <li><a class="dropdown-item" href="jogo7" id="corFonteNav2">Dead by Daylight</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item hover" href="jogo1" id="corFonteNav2">Lenhador da
+                                        Redenção</a>
                                 </li>
-                                <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-login" id="corFonteNav2">
-                                        <i class="fa-solid fa-right-to-bracket"></i>
-                                        Login</a></li>
+                                <li><a class="dropdown-item hover" href="jogo2" id="corFonteNav2">GTA V</a></li>
+                                <li><a class="dropdown-item hover" href="jogo3" id="corFonteNav2">Red Dead Redemption
+                                        2</a></li>
+                                <li><a class="dropdown-item hover" href="jogo4" id="corFonteNav2">Resident Evil 4</a>
+                                </li>
+                                <li><a class="dropdown-item hover" href="jogo5" id="corFonteNav2">The Last of Us™ Part
+                                        I</a></li>
+                                <li><a class="dropdown-item hover" href="jogo6" id="corFonteNav2">PUBG:
+                                        BATTLEGROUNDS</a>
+                                </li>
+                                <li><a class="dropdown-item hover" href="jogo7" id="corFonteNav2">Dead by Daylight</a>
+                                </li>
+
                         </li>
                     </ul>
+
                     <li class="nav-item dropdown">
+
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false" id="corFonteNav">
                             <i class="fa-solid fa-question"></i>
                             Sobre
                         </a>
                         <ul class="dropdown-menu" id="gridNav">
-                            <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-cadastro" id="corFonteNav2">
-                                    <i class="fa-solid fa-gears"></i>
-                                    Cadastre-Se!</a></li>
-                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-contato" id="corFonteNav2">
-                                <i class="fa-solid fa-envelope"></i>
-                                Contato</a>
+                            <div class="hover">
+                                <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-login"
+                                        id="corFonteNav2">
+                                        <i class="fa-solid fa-right-to-bracket"></i>
+                                        Login</a></li>
+                            </div>
+                            <div class="hover">
+                                <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-cadastro"
+                                        id="corFonteNav2">
+                                        <i class="fa-solid fa-gears"></i>
+                                        Cadastre-Se!</a></li>
+                            </div>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <div class="hover">
+                                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-contato"
+                                    id="corFonteNav2">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Contato</a>
+                            </div>
+
                     </li>
+
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
@@ -240,6 +270,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 <script>
-     AOS.init();
+    AOS.init();
 </script>
+
 </html>

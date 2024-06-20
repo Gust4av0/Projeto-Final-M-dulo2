@@ -86,6 +86,7 @@ $corFonte2: #541a26;
 header{
     padding-bottom: 20px;
     background-color: #000;
+    padding-bottom: 200px;
 }
 main {
     background-color: #000;
@@ -100,7 +101,7 @@ body{
     padding: 10px;
 }
 #logo{
-    width: 125px;
+    width: 80px;
 }
 .navbar{
     & .navbar-toggler{
@@ -114,6 +115,9 @@ body{
 #imagemEquipe{
     padding: 10px;
     border-radius: 150px;
+}
+.hover:hover{
+    background-color: $secundaria !important;
 }
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
 .carrosel-img{

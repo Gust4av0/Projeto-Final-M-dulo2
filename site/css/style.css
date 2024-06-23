@@ -70,6 +70,15 @@
   padding: 80px;
 }
 
+.tituloPrincipal {
+  text-align: center;
+  font-weight: bold;
+  font-family: Montserrat, Tahoma;
+  color: #FFF;
+  padding-top: 170px;
+  padding-bottom: 20px;
+}
+
 .font {
   font-family: Montserrat, Tahoma;
 }
@@ -95,7 +104,7 @@
 header {
   padding-bottom: 20px;
   background-color: #000;
-  padding-bottom: 200px;
+  padding-bottom: 130px;
 }
 
 main {
@@ -124,6 +133,12 @@ body {
 #imagem-logo {
   padding: 15px;
   border-radius: 35px;
+}
+
+#imagem-games {
+  padding: 15px;
+  border-radius: 35px;
+  text-align: center;
 }
 
 #imagemEquipe {
@@ -158,6 +173,16 @@ body {
 }
 .footer a:hover {
   color: #FFF;
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    display: none;
+  }
+
+  .tituloPrincipal {
+    padding-top: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

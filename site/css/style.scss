@@ -66,6 +66,14 @@ $corFonte2: #541a26;
     color: $corFonte1;
     padding: 80px;
 }
+.tituloPrincipal{
+    text-align: center;
+    font-weight: bold;
+    font-family: $fonte1;
+    color: $corFonte1;
+    padding-top: 170px;
+    padding-bottom: 20px;
+}
 .font{
     font-family: $fonte1;
 }
@@ -86,7 +94,7 @@ $corFonte2: #541a26;
 header{
     padding-bottom: 20px;
     background-color: #000;
-    padding-bottom: 200px;
+    padding-bottom: 130px;
 }
 main {
     background-color: #000;
@@ -112,6 +120,11 @@ body{
     padding: 15px;
     border-radius: 35px;
 }
+#imagem-games{
+    padding: 15px;
+    border-radius: 35px;
+    text-align: center;
+}
 #imagemEquipe{
     padding: 10px;
     border-radius: 150px;
@@ -119,6 +132,7 @@ body{
 .hover:hover{
     background-color: $secundaria !important;
 }
+
 /*------------------------------------CABEÇALHO E RODAPÉ--------------------------------------------------------*/
 .carrosel-img{
     object-fit: cover;
@@ -140,5 +154,13 @@ body{
         &:hover{
             color: $corFonte1;
         }
+    }
+}
+@media (max-width:480px){
+    .carousel{
+        display: none;
+    }
+    .tituloPrincipal{
+        padding-top: 20px;
     }
 }

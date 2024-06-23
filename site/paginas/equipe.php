@@ -2,7 +2,7 @@
 
 <div class="row justify-content-center">
   <div class="card m-3 centro font" style="width: 18rem;" id="gridEquipe" data-aos="fade-up-right">
-    <img src="imagens" class="card-img-top" alt="...">
+    <img src="imagens/criadores/Gustavo.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Gustavo Marcolin Soares</h5>
       <p class="card-text">Criador do Game: Lenhador da Redenção!</p>

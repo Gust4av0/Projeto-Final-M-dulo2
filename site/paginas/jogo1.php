@@ -1,38 +1,8 @@
-<h1 class="titulo">Lenhador da Redenção</h1>
-<div id="carouselExampleDark" class="carousel carousel-dark slide">
-    <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-            <img src="imagens/404.png" class="carrosel-img" alt="...">
-        </div>
-    </div>
+<img src="jogos/JogoFloresta/images/banner.png" class="img-thumbnail" alt="..." data-aos="fade-up" data-aos-duration="1000">
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam odio cumque beatae ratione incidunt, ipsam
-        minus, deserunt quas dolor voluptate, error necessitatibus inventore accusamus odit magnam reiciendis numquam
-        saepe?
+<h1 class="titulo" data-aos="fade-up" data-aos-duration="1000">Lenhador da Redenção</h1>
+
+    <p id="paragrafo" data-aos="fade-up" data-aos-duration="1000">Você é um lenhador que, ao se aventurar na floresta, descobre que ela foi tomada por orcs cruéis. Sua família está em perigo, e a floresta agoniza. Para restaurar a paz, você deve enfrentar os orcs.
     </p>
 
-    <h2 class="titulo">Imagens do Game:</h2>
-
-    <div class="row justify-content-center">
-  <div class="card m-3 centro font" style="width: 18rem;" id="gridEquipe">
-    <img src="imagens/jogo1/LayoutFase1.png" class="card-img-top" alt="...">
-    <div class="card-body">
-    </div>
-  </div>
-
-  <div class="card m-3 centro font" style="width: 18rem;" id="gridEquipe">
-    <img src="imagens/jogo1/LayoutFase2.png" class="card-img-top" alt="...">
-    <div class="card-body">
-    </div>
-  </div>
-
-  <div class="card m-3 centro font" style="width: 18rem;" id="gridEquipe">
-    <img src="imagens/404.png" class="card-img-top" alt="...">
-    <div class="card-body">
-    </div>
-  </div>
-
-  <h1 class="titulo">Jogue Agora!</h1>
-  <div class="centro">
-  <a href="#"class="btn btn-outline-success">Play!</a>
-  </div>
+    <iframe class="iframeGame" width="100%" height="600" src="jogos/JogoFloresta/JogoFloresta/index.html" data-aos="fade-up" data-aos-duration="1000"></iframe>

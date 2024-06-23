@@ -70,7 +70,7 @@
                                 <li><a class="dropdown-item hover" href="jogo2" id="corFonteNav2">GTA V</a></li>
                                 <li><a class="dropdown-item hover" href="jogo3" id="corFonteNav2">Red Dead Redemption
                                         2</a></li>
-                                <li><a class="dropdown-item hover" href="jogo4" id="corFonteNav2">Resident Evil 4</a>
+                                <li><a class="dropdown-item hover" href="jogo4" id="corFonteNav2">Resident Evil 7 Biohazard</a>
                                 </li>
                                 <li><a class="dropdown-item hover" href="jogo5" id="corFonteNav2">The Last of Us™ Part
                                         I</a></li>
@@ -154,7 +154,7 @@
     <footer class="footer">
         <p>Site desenvolvido por Gustavo Marcolin Soares | &copy; Todos os Direitos Reservados!</p>
 
-        <a href=""><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/gustavo-marcolin-soares-b07ab42b0/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
         <a href="mailto:gustavomarcolin2005@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i></a>
     </footer>
 
@@ -185,7 +185,7 @@
                         </div>
                     </form>
                 </div>
-                <a href="#" class="centro"><i class="fa-brands fa-whatsapp fa-4x" id="icones"></i></a>
+                <a href="https://wa.me/5544998800700" class="centro"><i class="fa-brands fa-whatsapp fa-4x" id="icones"></i></a>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
                     <button type="button" class="btn btn-success">Enviar</button>

@@ -24,7 +24,7 @@
                             <strong><?php echo $jogo->name;?></strong>
                         </p>
                         <p>
-                            <a href="jogos/<?=$jogo->id?>" class="btn btn-danger">
+                            <a href="<?=$jogo->id?>" class="btn btn-danger">
                                 Detalhes
                             </a>
                         </p>

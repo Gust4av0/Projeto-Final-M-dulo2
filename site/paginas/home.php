@@ -10,11 +10,19 @@
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
     </div>
     <div class="carousel-inner container-lg">
       <div class="carousel-item active" data-bs-interval="2500">
         <a href="jogo1">
           <img src="jogos/JogoFloresta/images/banner.png" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2500">
+        <a href="jogo2">
+          <img src="jogos/NinjaFrog/Banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
         </a>
         <div class="carousel-caption d-none d-md-block">
         </div>
@@ -80,10 +88,18 @@
       <img src="jogos/JogoFloresta/images/logo.webp" class="card-img-top" alt="..." id="imagem-logo">
       <div class="card-body">
         <h5 class="card-title">Lenhador da Redenção</h5>
-        <a href="#" class="btn btn-success">Jogue Agora!</a>
         <a href="jogo1" class="btn btn-outline-warning" id="margin">Informações</a>
       </div>
     </div>
+
+    <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-right">
+      <img src="jogos/NinjaFrog/Logo.jpg" class="card-img-top" alt="..." id="imagem-logo">
+      <div class="card-body">
+        <h5 class="card-title">Ninja Frog</h5>
+        <a href="jogo8" class="btn btn-outline-warning" id="margin">Informações</a>
+      </div>
+    </div>
+
     </div>
 
     <h1 class="titulo" data-aos="fade-up">Melhores Jogos!</h1>
@@ -93,7 +109,6 @@
       <img src="jogos/Gta/images/logo.webp" class="card-img-top w-100" alt="..." id="imagem-logo">
       <div class="card-body">
         <h5 class="card-title">GTA V</h5>
-        <a href="https://bj-share.info/login.php?c" class="btn btn-success">Jogue Agora!</a>
         <a href="jogo2" class="btn btn-outline-warning" id="margin">Informações</a>
       </div>
     </div>
@@ -102,7 +117,6 @@
       <img src="jogos/RedDead/images/logo.jpg" class="card-img-top" alt="..." id="imagem-logo">
       <div class="card-body">
         <h5 class="card-title">Red Dead Redemption 2</h5>
-        <a href="https://bj-share.info/login.php?c" class="btn btn-success">Jogue Agora!</a>
         <a href="jogo3" class="btn btn-outline-warning" id="margin">Informações</a>
       </div>
     </div>
@@ -115,7 +129,6 @@
       <img src="jogos/Us/images/logo.jpg" class="card-img-top" alt="..." id="imagem-logo">
       <div class="card-body">
         <h5 class="card-title">The Last of Us™ Part I</h5>
-        <a href="https://bj-share.info/login.php?c" class="btn btn-success">Jogue Agora!</a>
         <a href="jogo5" class="btn btn-outline-warning" id="margin">Informações</a>
       </div>
     </div>
@@ -124,7 +137,6 @@
       <img src="jogos/Pubg/images/logo.jpg" class="card-img-top" alt="..." id="imagem-logo">
       <div class="card-body">
         <h5 class="card-title">PUBG: BATTLEGROUNDS</h5>
-        <a href="https://bj-share.info/login.php?c" class="btn btn-success">Jogue Agora!</a>
         <a href="jogo6" class="btn btn-outline-warning" id="margin">Informações</a>
       </div>
     </div>
@@ -133,7 +145,6 @@
       <img src="jogos/Dbd/images/logo.jpeg" class="card-img-top" alt="..." id="imagem-logo">
       <div class="card-body">
         <h5 class="card-title">Dead by Daylight</h5>
-        <a href="https://bj-share.info/login.php?c" class="btn btn-success">Jogue Agora!</a>
         <a href="jogo7" class="btn btn-outline-warning" id="margin">Informações</a>
       </div>
     </div>

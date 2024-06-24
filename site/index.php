@@ -67,6 +67,8 @@
                                 <li><a class="dropdown-item hover" href="jogo1" id="corFonteNav2">Lenhador da
                                         Redenção</a>
                                 </li>
+                                <li><a class="dropdown-item hover" href="jogo8" id="corFonteNav2">Ninja Frog</a>
+                                </li>
                                 <li><a class="dropdown-item hover" href="jogo2" id="corFonteNav2">GTA V</a></li>
                                 <li><a class="dropdown-item hover" href="jogo3" id="corFonteNav2">Red Dead Redemption
                                         2</a></li>

@@ -11,8 +11,10 @@
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9" aria-label="Slide 10"></button>
     </div>
-    <div class="carousel-inner container-lg">
+    <div class="carousel-inner container-lg" data-aos="fade-down">
       <div class="carousel-item active" data-bs-interval="2500">
         <a href="jogo1">
           <img src="jogos/JogoFloresta/images/banner.png" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
@@ -21,8 +23,22 @@
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2500">
-        <a href="jogo2">
+        <a href="jogo8">
           <img src="jogos/NinjaFrog/Banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2500">
+        <a href="jogo9">
+          <img src="jogos/Swamp/Banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2500">
+        <a href="jogo10">
+          <img src="jogos/JornadaCoragem/banner.jpg" class="w-100 img-fluid rounded mx-auto d-block" alt="...">
         </a>
         <div class="carousel-caption d-none d-md-block">
         </div>
@@ -81,7 +97,7 @@
     </button>
   </div>
 
-  <h1 class="tituloPrincipal" data-aos="fade-up">Favorito!</h1>
+  <h1 class="tituloPrincipal" data-aos="fade-up">Jogos Construct 3!</h1>
 
   <div class="row justify-content-center font">
     <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-right">
@@ -100,9 +116,24 @@
       </div>
     </div>
 
+    <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-right">
+      <img src="jogos/Swamp/Logo.jpg" class="card-img-top" alt="..." id="imagem-logo">
+      <div class="card-body">
+        <h5 class="card-title">Swamp</h5>
+        <a href="jogo9" class="btn btn-outline-warning" id="margin">Informações</a>
+      </div>
     </div>
 
-    <h1 class="titulo" data-aos="fade-up">Melhores Jogos!</h1>
+    <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-right">
+      <img src="jogos/JornadaCoragem/logo.jpg" class="card-img-top" alt="..." id="imagem-logo">
+      <div class="card-body">
+        <h5 class="card-title">Jornada da Coragem</h5>
+        <a href="jogo10" class="btn btn-outline-warning" id="margin">Informações</a>
+      </div>
+    </div>
+    </div>
+
+    <h1 class="titulo" data-aos="fade-up">Melhores lançamentos!</h1>
 
     <div class="row justify-content-center font">
     <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-up" data-aos-duration="1000">
@@ -120,9 +151,17 @@
         <a href="jogo3" class="btn btn-outline-warning" id="margin">Informações</a>
       </div>
     </div>
+
+    <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-left">
+      <img src="jogos/Resident/images/logo.jpg" class="card-img-top" alt="..." id="imagem-logo">
+      <div class="card-body">
+        <h5 class="card-title">Resident Evil 7 Biohazard</h5>
+        <a href="jogo4" class="btn btn-outline-warning" id="margin">Informações</a>
+      </div>
+    </div>
     </div>
 
-  <h1 class="titulo" data-aos="fade-up">Lançamentos</h1>
+  <h1 class="titulo" data-aos="fade-up">Outros Jogos:</h1>
 
   <div class="row justify-content-center font">
     <div class="card m-3 centro" style="width: 22rem;" id="gridJogos" data-aos="fade-right">

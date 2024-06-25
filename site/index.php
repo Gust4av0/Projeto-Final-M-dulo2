@@ -69,6 +69,10 @@
                                 </li>
                                 <li><a class="dropdown-item hover" href="jogo8" id="corFonteNav2">Ninja Frog</a>
                                 </li>
+                                <li><a class="dropdown-item hover" href="jogo9" id="corFonteNav2">Swamp</a>
+                                </li>
+                                <li><a class="dropdown-item hover" href="jogo10" id="corFonteNav2">Jornada da Coragem</a>
+                                </li>
                                 <li><a class="dropdown-item hover" href="jogo2" id="corFonteNav2">GTA V</a></li>
                                 <li><a class="dropdown-item hover" href="jogo3" id="corFonteNav2">Red Dead Redemption
                                         2</a></li>

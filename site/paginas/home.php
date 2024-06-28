@@ -141,6 +141,7 @@
       <div class="card-body">
         <h5 class="card-title">GTA V</h5>
         <a href="jogo2" class="btn btn-outline-warning" id="margin">Informações</a>
+        <a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" download class="btn btn-success" id="margin">Comprar</a>
       </div>
     </div>
 
@@ -149,6 +150,7 @@
       <div class="card-body">
         <h5 class="card-title">Red Dead Redemption 2</h5>
         <a href="jogo3" class="btn btn-outline-warning" id="margin">Informações</a>
+        <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" download class="btn btn-success" id="margin">Comprar</a>
       </div>
     </div>
 
@@ -157,6 +159,7 @@
       <div class="card-body">
         <h5 class="card-title">Resident Evil 7 Biohazard</h5>
         <a href="jogo4" class="btn btn-outline-warning" id="margin">Informações</a>
+        <a href="https://store.steampowered.com/app/418370/Resident_Evil_7_Biohazard/" download class="btn btn-success" id="margin">Comprar</a>
       </div>
     </div>
     </div>
@@ -169,6 +172,7 @@
       <div class="card-body">
         <h5 class="card-title">The Last of Us™ Part I</h5>
         <a href="jogo5" class="btn btn-outline-warning" id="margin">Informações</a>
+         <a href="https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/" download class="btn btn-success" id="margin">Comprar</a>
       </div>
     </div>
 
@@ -177,6 +181,7 @@
       <div class="card-body">
         <h5 class="card-title">PUBG: BATTLEGROUNDS</h5>
         <a href="jogo6" class="btn btn-outline-warning" id="margin">Informações</a>
+        <a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/" download class="btn btn-success" id="margin">Comprar</a>
       </div>
     </div>
 
@@ -185,6 +190,7 @@
       <div class="card-body">
         <h5 class="card-title">Dead by Daylight</h5>
         <a href="jogo7" class="btn btn-outline-warning" id="margin">Informações</a>
+        <a href="https://store.steampowered.com/app/381210/Dead_by_Daylight/" download class="btn btn-success" id="margin">Comprar</a>
       </div>
     </div>
   </div>

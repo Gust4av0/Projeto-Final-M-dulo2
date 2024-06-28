@@ -1,6 +1,6 @@
 <?php
-    //configurações API
-    $api_key = "4619b955d4ee4ca48c251fd6d85068b2";
+//Api Batman teste
+$base_url = "curl --location 'https://www.cheapshark.com/api/1.0/games?id=612'";
 ?>
 
 
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="shortcut icon" href="imagens/Logo.png">
 
-    <base href="http://localhost/DetonaGames/site/">
+    <base href="https://detonagames.000webhostapp.com/">
 
     <!--Fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,6 +32,17 @@
 </head>
 
 <body>
+    <!--API batman teste-->
+    <?php
+    $url = "https://www.cheapshark.com/api/1.0/games?title=batman";
+    $dadosApi = file_get_contents($url);
+    $dadosJogos = json_decode($dadosApi)
+    ?>
+    <?php
+    $url = "https://www.cheapshark.com/api/1.0/games?title=batman";
+    $dadosApi = file_get_contents($url);
+    $dadosJogos = json_decode($dadosApi)
+    ?>
     <!--Cabeçalho/Barra navegação-->
     <header>
         <nav class="navbar navbar-expand-lg fixed-top" id="nav" data-aos="fade-right">
@@ -85,6 +96,8 @@
                                 </li>
                                 <li><a class="dropdown-item hover" href="jogo7" id="corFonteNav2">Dead by Daylight</a>
                                 </li>
+                                <li><a class="dropdown-item hover" href="api" id="corFonteNav2">API Batman Teste</a>
+                                </li>
 
                         </li>
                     </ul>
@@ -97,20 +110,6 @@
                             Sobre
                         </a>
                         <ul class="dropdown-menu" id="gridNav">
-                            <div class="hover">
-                                <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-login"
-                                        id="corFonteNav2">
-                                        <i class="fa-solid fa-right-to-bracket"></i>
-                                        Login</a></li>
-                            </div>
-                            <div class="hover">
-                                <li><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-cadastro"
-                                        id="corFonteNav2">
-                                        <i class="fa-solid fa-gears"></i>
-                                        Cadastre-Se!</a></li>
-                            </div>
-                            <li>
-                                <hr class="dropdown-divider">
                             </li>
                             <div class="hover">
                                 <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-contato"
@@ -176,26 +175,26 @@
                     <form>
                         <div class="input-group">
                             <span class="input-group-text">Nome e Sobrenome</span>
-                            <input type="text" aria-label="First name" placeholder="Nome" class="form-control">
-                            <input type="text" aria-label="Last name" placeholder="Sobrenome" class="form-control">
+                            <input type="text" aria-label="First name" placeholder="Nome" class="form-control" required>
+                            <input type="text" aria-label="Last name" placeholder="Sobrenome" class="form-control" required>
                         </div>
 
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Endereço de Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email aqui">
+                            <input type="email" class="form-control" id="email" placeholder="Email aqui" required>
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Deixe se Comentário</label>
                             <textarea class="form-control" placeholder="Insira aqui seu Comentário" id="mensagem"
                                 rows="3"></textarea>
                         </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                            <button type="submit" class="btn btn-success">Enviar</button>
+                        </div>
                     </form>
                 </div>
                 <a href="https://wa.me/5544998800700" class="centro"><i class="fa-brands fa-whatsapp fa-4x" id="icones"></i></a>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-success">Enviar</button>
-                </div>
             </div>
         </div>
     </div>
